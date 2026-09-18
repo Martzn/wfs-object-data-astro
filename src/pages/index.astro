@@ -1,17 +1,30 @@
 ---
-
+import SiteLayout from "../layouts/SiteLayout.astro";
+import ObjectSearch from "../components/ObjectSearch.vue";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<style>
+  .intro {
+    background: var(--primary-color);
+    color: #fff;
+    padding: var(--space-default);
+    margin-top: var(--space-default);
+  }
+
+  .search {
+    background: var(--background-color);
+    padding: var(--space-default);
+  }
+</style>
+<SiteLayout title="Objektdatenbank">
+  <div class="intro">
+    <h1>Objektdatenbank</h1>
+  </div>
+
+  <div class="search">
+    <ObjectSearch client:load />
+    <noscript
+      >JavaScript muss aktiviert sein, um die Objektsuche zu verwenden.</noscript
+    >
+  </div>
+</SiteLayout>

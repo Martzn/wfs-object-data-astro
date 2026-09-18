@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "OBJ-0001",
+    "objectName": "Panoramablick Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Bahnhofstraße 95",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.226751,
+      "longitude": 12.705625
+    }
+  },
+  {
+    "id": "OBJ-0002",
+    "objectName": "Sonnenhof Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Gartenstraße 76",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.177496,
+      "longitude": 14.390886
+    }
+  },
+  {
+    "id": "OBJ-0003",
+    "objectName": "Lindenhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 72",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.091842,
+      "longitude": 13.671292
+    }
+  },
+  {
+    "id": "OBJ-0004",
+    "objectName": "Torhaus Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Mühlenweg 76",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.80871,
+      "longitude": 12.570751
+    }
+  },
+  {
+    "id": "OBJ-0005",
+    "objectName": "Wiesenhaus Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Industriestraße 36",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.878774,
+      "longitude": 14.839005
+    }
+  },
+  {
+    "id": "OBJ-0006",
+    "objectName": "Bergblick Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Leipziger Straße 13",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.174349,
+      "longitude": 14.412877
+    }
+  },
+  {
+    "id": "OBJ-0007",
+    "objectName": "Lindenhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 16",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.363356,
+      "longitude": 12.364597
+    }
+  },
+  {
+    "id": "OBJ-0008",
+    "objectName": "Gartenhof Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Dresdner Straße 74",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.986514,
+      "longitude": 13.618669
+    }
+  },
+  {
+    "id": "OBJ-0009",
+    "objectName": "Bahnhofquartier Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Gartenstraße 30",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.125224,
+      "longitude": 13.652409
+    }
+  },
+  {
+    "id": "OBJ-0010",
+    "objectName": "Panoramablick Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Lindenstraße 48",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.230764,
+      "longitude": 12.736912
+    }
+  },
+  {
+    "id": "OBJ-0011",
+    "objectName": "Alte Schule Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Lindenstraße 69",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.135756,
+      "longitude": 12.472438
+    }
+  },
+  {
+    "id": "OBJ-0012",
+    "objectName": "Am Stadtpark Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Wiesenweg 88",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.953714,
+      "longitude": 13.958782
+    }
+  },
+  {
+    "id": "OBJ-0013",
+    "objectName": "Am Bach Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Industriestraße 52",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.095287,
+      "longitude": 13.640569
+    }
+  },
+  {
+    "id": "OBJ-0014",
+    "objectName": "Gartenhof Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Am Markt 84",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.560162,
+      "longitude": 13.031928
+    }
+  },
+  {
+    "id": "OBJ-0015",
+    "objectName": "Bergblick Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 18",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.484631,
+      "longitude": 12.142096
+    }
+  },
+  {
+    "id": "OBJ-0016",
+    "objectName": "Am Markt Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Parkstraße 75",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.52047,
+      "longitude": 12.322352
+    }
+  },
+  {
+    "id": "OBJ-0017",
+    "objectName": "Gartenhof Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 97",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.556856,
+      "longitude": 12.975075
+    }
+  },
+  {
+    "id": "OBJ-0018",
+    "objectName": "Lindenhof Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 50",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.890081,
+      "longitude": 14.841728
+    }
+  },
+  {
+    "id": "OBJ-0019",
+    "objectName": "Lindenhof Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 88",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.973536,
+      "longitude": 13.95272
+    }
+  },
+  {
+    "id": "OBJ-0020",
+    "objectName": "Panoramablick Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Schulstraße 38",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.959238,
+      "longitude": 13.936761
+    }
+  },
+  {
+    "id": "OBJ-0021",
+    "objectName": "Werkhof Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 98",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.509433,
+      "longitude": 12.370884
+    }
+  },
+  {
+    "id": "OBJ-0022",
+    "objectName": "Am Markt Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 78",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.222946,
+      "longitude": 12.716174
+    }
+  },
+  {
+    "id": "OBJ-0023",
+    "objectName": "Parkhaus Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 77",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.581508,
+      "longitude": 12.672963
+    }
+  },
+  {
+    "id": "OBJ-0024",
+    "objectName": "An der Mühle Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 8",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.109444,
+      "longitude": 13.115015
+    }
+  },
+  {
+    "id": "OBJ-0025",
+    "objectName": "Gartenhof Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 98",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.833935,
+      "longitude": 12.899103
+    }
+  },
+  {
+    "id": "OBJ-0026",
+    "objectName": "Sonnenhof Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Lindenstraße 34",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.512384,
+      "longitude": 12.407462
+    }
+  },
+  {
+    "id": "OBJ-0027",
+    "objectName": "Bahnhofquartier Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 52",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.615057,
+      "longitude": 12.717091
+    }
+  },
+  {
+    "id": "OBJ-0028",
+    "objectName": "Am Bach Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 32",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.565735,
+      "longitude": 12.991066
+    }
+  },
+  {
+    "id": "OBJ-0029",
+    "objectName": "Sonnenhof Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Wiesenweg 1",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.56885,
+      "longitude": 12.715777
+    }
+  },
+  {
+    "id": "OBJ-0030",
+    "objectName": "Bahnhofquartier Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Industriestraße 10",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.833008,
+      "longitude": 12.909793
+    }
+  },
+  {
+    "id": "OBJ-0031",
+    "objectName": "Bahnhofquartier Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bergstraße 93",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.185376,
+      "longitude": 13.477973
+    }
+  },
+  {
+    "id": "OBJ-0032",
+    "objectName": "Wiesenhaus Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Parkstraße 25",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.086616,
+      "longitude": 13.671929
+    }
+  },
+  {
+    "id": "OBJ-0033",
+    "objectName": "Gartenhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Mühlenweg 94",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.797509,
+      "longitude": 12.555642
+    }
+  },
+  {
+    "id": "OBJ-0034",
+    "objectName": "Sonnenhof Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Leipziger Straße 94",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.173365,
+      "longitude": 14.449117
+    }
+  },
+  {
+    "id": "OBJ-0035",
+    "objectName": "Bahnhofquartier Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Sonnenweg 58",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.145609,
+      "longitude": 13.450844
+    }
+  },
+  {
+    "id": "OBJ-0036",
+    "objectName": "Lindenhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 71",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.086795,
+      "longitude": 13.67145
+    }
+  },
+  {
+    "id": "OBJ-0037",
+    "objectName": "Werkhof Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Wiesenweg 22",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.045721,
+      "longitude": 13.735995
+    }
+  },
+  {
+    "id": "OBJ-0038",
+    "objectName": "Parkhaus Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Lindenstraße 49",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.694008,
+      "longitude": 12.48623
+    }
+  },
+  {
+    "id": "OBJ-0039",
+    "objectName": "Lindenhof Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Parkstraße 90",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.520166,
+      "longitude": 12.17248
+    }
+  },
+  {
+    "id": "OBJ-0040",
+    "objectName": "Am Bach Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 25",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.114135,
+      "longitude": 12.52881
+    }
+  },
+  {
+    "id": "OBJ-0041",
+    "objectName": "Bahnhofquartier Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Hauptstraße 96",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.51618,
+      "longitude": 12.31051
+    }
+  },
+  {
+    "id": "OBJ-0042",
+    "objectName": "Am Markt Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Lindenstraße 8",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.602539,
+      "longitude": 12.973008
+    }
+  },
+  {
+    "id": "OBJ-0043",
+    "objectName": "Parkhaus Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Gartenstraße 87",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.850391,
+      "longitude": 12.918564
+    }
+  },
+  {
+    "id": "OBJ-0044",
+    "objectName": "Am Bach Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Hauptstraße 80",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.416999,
+      "longitude": 14.246516
+    }
+  },
+  {
+    "id": "OBJ-0045",
+    "objectName": "Bergblick Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Feldstraße 27",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.587986,
+      "longitude": 12.989393
+    }
+  },
+  {
+    "id": "OBJ-0046",
+    "objectName": "An der Mühle Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 59",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.709709,
+      "longitude": 12.511531
+    }
+  },
+  {
+    "id": "OBJ-0047",
+    "objectName": "Am Markt Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 10",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.052282,
+      "longitude": 13.737712
+    }
+  },
+  {
+    "id": "OBJ-0048",
+    "objectName": "Lindenhof Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Wiesenweg 48",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.111649,
+      "longitude": 13.105973
+    }
+  },
+  {
+    "id": "OBJ-0049",
+    "objectName": "Parkhaus Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 2",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.568593,
+      "longitude": 13.008822
+    }
+  },
+  {
+    "id": "OBJ-0050",
+    "objectName": "Lindenhof Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Bergstraße 34",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.105071,
+      "longitude": 12.468493
+    }
+  },
+  {
+    "id": "OBJ-0051",
+    "objectName": "Gartenhof Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Kirchstraße 78",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.137531,
+      "longitude": 14.977502
+    }
+  },
+  {
+    "id": "OBJ-0052",
+    "objectName": "Am Stadtpark Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 63",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.225556,
+      "longitude": 12.753571
+    }
+  },
+  {
+    "id": "OBJ-0053",
+    "objectName": "Gartenhof Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Feldstraße 6",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.807477,
+      "longitude": 12.944278
+    }
+  },
+  {
+    "id": "OBJ-0054",
+    "objectName": "An der Mühle Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Mühlenweg 71",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.972783,
+      "longitude": 13.944263
+    }
+  },
+  {
+    "id": "OBJ-0055",
+    "objectName": "Am Markt Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Sonnenweg 5",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.84903,
+      "longitude": 12.931076
+    }
+  },
+  {
+    "id": "OBJ-0056",
+    "objectName": "Werkhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Hauptstraße 40",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.813033,
+      "longitude": 12.575216
+    }
+  },
+  {
+    "id": "OBJ-0057",
+    "objectName": "Torhaus Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Am Markt 88",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.327176,
+      "longitude": 12.345296
+    }
+  },
+  {
+    "id": "OBJ-0058",
+    "objectName": "Torhaus Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 31",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.60853,
+      "longitude": 12.739934
+    }
+  },
+  {
+    "id": "OBJ-0059",
+    "objectName": "Parkhaus Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bahnhofstraße 23",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.907828,
+      "longitude": 14.795253
+    }
+  },
+  {
+    "id": "OBJ-0060",
+    "objectName": "Werkhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 21",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.834169,
+      "longitude": 12.517467
+    }
+  },
+  {
+    "id": "OBJ-0061",
+    "objectName": "Bergblick Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Wiesenweg 26",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.355529,
+      "longitude": 12.370321
+    }
+  },
+  {
+    "id": "OBJ-0062",
+    "objectName": "Werkhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Bahnhofstraße 85",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.091556,
+      "longitude": 13.648778
+    }
+  },
+  {
+    "id": "OBJ-0063",
+    "objectName": "Werkhof Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Dresdner Straße 83",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.83277,
+      "longitude": 12.937866
+    }
+  },
+  {
+    "id": "OBJ-0064",
+    "objectName": "Am Bach Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bahnhofstraße 15",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.609152,
+      "longitude": 12.689885
+    }
+  },
+  {
+    "id": "OBJ-0065",
+    "objectName": "Wiesenhaus Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Schulstraße 77",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.959228,
+      "longitude": 13.955998
+    }
+  },
+  {
+    "id": "OBJ-0066",
+    "objectName": "Bergblick Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Talstraße 15",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.81406,
+      "longitude": 12.550261
+    }
+  },
+  {
+    "id": "OBJ-0067",
+    "objectName": "Panoramablick Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bahnhofstraße 67",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.360979,
+      "longitude": 12.375792
+    }
+  },
+  {
+    "id": "OBJ-0068",
+    "objectName": "Wiesenhaus Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Dresdner Straße 56",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.503999,
+      "longitude": 12.353497
+    }
+  },
+  {
+    "id": "OBJ-0069",
+    "objectName": "Gartenhof Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Schulstraße 93",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.327702,
+      "longitude": 13.292199
+    }
+  },
+  {
+    "id": "OBJ-0070",
+    "objectName": "Alte Schule Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Leipziger Straße 90",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.809583,
+      "longitude": 12.51881
+    }
+  },
+  {
+    "id": "OBJ-0071",
+    "objectName": "Werkhof Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Lindenstraße 79",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.127755,
+      "longitude": 12.489425
+    }
+  },
+  {
+    "id": "OBJ-0072",
+    "objectName": "Gartenhof Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Kirchstraße 27",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.046894,
+      "longitude": 13.742899
+    }
+  },
+  {
+    "id": "OBJ-0073",
+    "objectName": "Torhaus Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Mühlenweg 57",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.919681,
+      "longitude": 13.339582
+    }
+  },
+  {
+    "id": "OBJ-0074",
+    "objectName": "Wiesenhaus Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 37",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.526273,
+      "longitude": 12.351306
+    }
+  },
+  {
+    "id": "OBJ-0075",
+    "objectName": "Am Stadtpark Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 29",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.847628,
+      "longitude": 12.900615
+    }
+  },
+  {
+    "id": "OBJ-0076",
+    "objectName": "Sonnenhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 59",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.102622,
+      "longitude": 13.669884
+    }
+  },
+  {
+    "id": "OBJ-0077",
+    "objectName": "Am Stadtpark Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Am Stadtpark 52",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.547399,
+      "longitude": 13.015924
+    }
+  },
+  {
+    "id": "OBJ-0078",
+    "objectName": "Bahnhofquartier Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Wiesenweg 23",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.196605,
+      "longitude": 14.437514
+    }
+  },
+  {
+    "id": "OBJ-0079",
+    "objectName": "Gartenhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Wiesenweg 16",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.337523,
+      "longitude": 12.394199
+    }
+  },
+  {
+    "id": "OBJ-0080",
+    "objectName": "Panoramablick Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Industriestraße 97",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.599071,
+      "longitude": 13.010286
+    }
+  },
+  {
+    "id": "OBJ-0081",
+    "objectName": "Bahnhofquartier Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 58",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.59936,
+      "longitude": 13.019456
+    }
+  },
+  {
+    "id": "OBJ-0082",
+    "objectName": "Bahnhofquartier Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 82",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.486166,
+      "longitude": 12.157237
+    }
+  },
+  {
+    "id": "OBJ-0083",
+    "objectName": "Bergblick Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 57",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.216874,
+      "longitude": 12.710001
+    }
+  },
+  {
+    "id": "OBJ-0084",
+    "objectName": "Panoramablick Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Sonnenweg 11",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.892819,
+      "longitude": 13.319988
+    }
+  },
+  {
+    "id": "OBJ-0085",
+    "objectName": "Alte Schule Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 54",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.14738,
+      "longitude": 14.991483
+    }
+  },
+  {
+    "id": "OBJ-0086",
+    "objectName": "Panoramablick Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Parkstraße 50",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.359942,
+      "longitude": 12.378986
+    }
+  },
+  {
+    "id": "OBJ-0087",
+    "objectName": "Torhaus Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Leipziger Straße 62",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.025695,
+      "longitude": 13.726923
+    }
+  },
+  {
+    "id": "OBJ-0088",
+    "objectName": "Parkhaus Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 96",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.730632,
+      "longitude": 12.514891
+    }
+  },
+  {
+    "id": "OBJ-0089",
+    "objectName": "Wiesenhaus Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Wiesenweg 35",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.103692,
+      "longitude": 13.627832
+    }
+  },
+  {
+    "id": "OBJ-0090",
+    "objectName": "Lindenhof Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Lindenstraße 60",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.145277,
+      "longitude": 12.529651
+    }
+  },
+  {
+    "id": "OBJ-0091",
+    "objectName": "Bahnhofquartier Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bahnhofstraße 11",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.057537,
+      "longitude": 13.711799
+    }
+  },
+  {
+    "id": "OBJ-0092",
+    "objectName": "Wiesenhaus Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Feldstraße 49",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.887368,
+      "longitude": 14.803829
+    }
+  },
+  {
+    "id": "OBJ-0093",
+    "objectName": "Panoramablick Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Parkstraße 33",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.735646,
+      "longitude": 12.491821
+    }
+  },
+  {
+    "id": "OBJ-0094",
+    "objectName": "Gartenhof Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Dresdner Straße 29",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.597807,
+      "longitude": 12.726286
+    }
+  },
+  {
+    "id": "OBJ-0095",
+    "objectName": "Sonnenhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Wiesenweg 26",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.356661,
+      "longitude": 12.381593
+    }
+  },
+  {
+    "id": "OBJ-0096",
+    "objectName": "Bergblick Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 73",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.174388,
+      "longitude": 14.986052
+    }
+  },
+  {
+    "id": "OBJ-0097",
+    "objectName": "Am Stadtpark Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Schulstraße 21",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.145636,
+      "longitude": 13.082867
+    }
+  },
+  {
+    "id": "OBJ-0098",
+    "objectName": "Am Bach Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Leipziger Straße 51",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.023974,
+      "longitude": 13.627683
+    }
+  },
+  {
+    "id": "OBJ-0099",
+    "objectName": "Am Bach Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Schulstraße 90",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.573824,
+      "longitude": 13.029521
+    }
+  },
+  {
+    "id": "OBJ-0100",
+    "objectName": "An der Mühle Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Hauptstraße 45",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.183037,
+      "longitude": 14.435106
+    }
+  },
+  {
+    "id": "OBJ-0101",
+    "objectName": "Wiesenhaus Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bahnhofstraße 54",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.595617,
+      "longitude": 12.974788
+    }
+  },
+  {
+    "id": "OBJ-0102",
+    "objectName": "Gartenhof Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 56",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.221807,
+      "longitude": 12.726522
+    }
+  },
+  {
+    "id": "OBJ-0103",
+    "objectName": "Am Bach Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Sonnenweg 62",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.960744,
+      "longitude": 13.962801
+    }
+  },
+  {
+    "id": "OBJ-0104",
+    "objectName": "Torhaus Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 12",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.951446,
+      "longitude": 13.936556
+    }
+  },
+  {
+    "id": "OBJ-0105",
+    "objectName": "Am Markt Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Leipziger Straße 44",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.473735,
+      "longitude": 12.162367
+    }
+  },
+  {
+    "id": "OBJ-0106",
+    "objectName": "Panoramablick Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Dresdner Straße 34",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.503017,
+      "longitude": 12.426622
+    }
+  },
+  {
+    "id": "OBJ-0107",
+    "objectName": "Panoramablick Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 67",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.984903,
+      "longitude": 13.910993
+    }
+  },
+  {
+    "id": "OBJ-0108",
+    "objectName": "Panoramablick Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 98",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.806816,
+      "longitude": 12.543227
+    }
+  },
+  {
+    "id": "OBJ-0109",
+    "objectName": "Sonnenhof Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bahnhofstraße 12",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.500712,
+      "longitude": 12.393308
+    }
+  },
+  {
+    "id": "OBJ-0110",
+    "objectName": "Panoramablick Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Dresdner Straße 61",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.004574,
+      "longitude": 13.637863
+    }
+  },
+  {
+    "id": "OBJ-0111",
+    "objectName": "Sonnenhof Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Dresdner Straße 90",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.587987,
+      "longitude": 12.693064
+    }
+  },
+  {
+    "id": "OBJ-0112",
+    "objectName": "Panoramablick Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Industriestraße 16",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.193544,
+      "longitude": 14.455361
+    }
+  },
+  {
+    "id": "OBJ-0113",
+    "objectName": "Torhaus Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Markt 95",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.89521,
+      "longitude": 14.822721
+    }
+  },
+  {
+    "id": "OBJ-0114",
+    "objectName": "Wiesenhaus Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Kirchstraße 13",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.596131,
+      "longitude": 12.988137
+    }
+  },
+  {
+    "id": "OBJ-0115",
+    "objectName": "Am Stadtpark Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bahnhofstraße 91",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.897707,
+      "longitude": 14.791202
+    }
+  },
+  {
+    "id": "OBJ-0116",
+    "objectName": "Werkhof Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 82",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.608723,
+      "longitude": 12.705962
+    }
+  },
+  {
+    "id": "OBJ-0117",
+    "objectName": "Am Stadtpark Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Kirchstraße 61",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.049336,
+      "longitude": 13.726149
+    }
+  },
+  {
+    "id": "OBJ-0118",
+    "objectName": "Gartenhof Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 9",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.957535,
+      "longitude": 13.910186
+    }
+  },
+  {
+    "id": "OBJ-0119",
+    "objectName": "An der Mühle Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Bergstraße 20",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.139857,
+      "longitude": 12.527439
+    }
+  },
+  {
+    "id": "OBJ-0120",
+    "objectName": "Am Bach Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Sonnenweg 98",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.102709,
+      "longitude": 13.667529
+    }
+  },
+  {
+    "id": "OBJ-0121",
+    "objectName": "Am Bach Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Leipziger Straße 58",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.127325,
+      "longitude": 13.646615
+    }
+  },
+  {
+    "id": "OBJ-0122",
+    "objectName": "Torhaus Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Hauptstraße 79",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.842805,
+      "longitude": 12.516846
+    }
+  },
+  {
+    "id": "OBJ-0123",
+    "objectName": "Lindenhof Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 85",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.142659,
+      "longitude": 13.454791
+    }
+  },
+  {
+    "id": "OBJ-0124",
+    "objectName": "Bergblick Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Bahnhofstraße 53",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.829825,
+      "longitude": 12.931867
+    }
+  },
+  {
+    "id": "OBJ-0125",
+    "objectName": "An der Mühle Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 91",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.328836,
+      "longitude": 12.398272
+    }
+  },
+  {
+    "id": "OBJ-0126",
+    "objectName": "Sonnenhof Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 81",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.128789,
+      "longitude": 12.517273
+    }
+  },
+  {
+    "id": "OBJ-0127",
+    "objectName": "Werkhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Sonnenweg 29",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.827182,
+      "longitude": 12.573489
+    }
+  },
+  {
+    "id": "OBJ-0128",
+    "objectName": "Werkhof Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Hauptstraße 22",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.166631,
+      "longitude": 14.995153
+    }
+  },
+  {
+    "id": "OBJ-0129",
+    "objectName": "Alte Schule Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Mühlenweg 16",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.436335,
+      "longitude": 14.221786
+    }
+  },
+  {
+    "id": "OBJ-0130",
+    "objectName": "Parkhaus Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Sonnenweg 64",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.959388,
+      "longitude": 13.946863
+    }
+  },
+  {
+    "id": "OBJ-0131",
+    "objectName": "Werkhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Feldstraße 4",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.799366,
+      "longitude": 12.577234
+    }
+  },
+  {
+    "id": "OBJ-0132",
+    "objectName": "Am Stadtpark Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 98",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.446514,
+      "longitude": 14.219366
+    }
+  },
+  {
+    "id": "OBJ-0133",
+    "objectName": "Am Bach Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Talstraße 84",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.893111,
+      "longitude": 14.791471
+    }
+  },
+  {
+    "id": "OBJ-0134",
+    "objectName": "Gartenhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 61",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.812198,
+      "longitude": 12.533232
+    }
+  },
+  {
+    "id": "OBJ-0135",
+    "objectName": "Alte Schule Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Industriestraße 53",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.191084,
+      "longitude": 14.408975
+    }
+  },
+  {
+    "id": "OBJ-0136",
+    "objectName": "Torhaus Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 12",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.581026,
+      "longitude": 12.694229
+    }
+  },
+  {
+    "id": "OBJ-0137",
+    "objectName": "Am Stadtpark Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bahnhofstraße 85",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.737368,
+      "longitude": 12.491238
+    }
+  },
+  {
+    "id": "OBJ-0138",
+    "objectName": "Torhaus Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Dresdner Straße 80",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.176422,
+      "longitude": 13.481779
+    }
+  },
+  {
+    "id": "OBJ-0139",
+    "objectName": "Parkhaus Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 71",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.321251,
+      "longitude": 12.358262
+    }
+  },
+  {
+    "id": "OBJ-0140",
+    "objectName": "Sonnenhof Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 4",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.583857,
+      "longitude": 13.012621
+    }
+  },
+  {
+    "id": "OBJ-0141",
+    "objectName": "Sonnenhof Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 71",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.535884,
+      "longitude": 12.998559
+    }
+  },
+  {
+    "id": "OBJ-0142",
+    "objectName": "Panoramablick Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 83",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.198007,
+      "longitude": 14.423686
+    }
+  },
+  {
+    "id": "OBJ-0143",
+    "objectName": "Sonnenhof Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Feldstraße 54",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.018636,
+      "longitude": 13.682417
+    }
+  },
+  {
+    "id": "OBJ-0144",
+    "objectName": "Panoramablick Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bergstraße 50",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.481831,
+      "longitude": 12.144756
+    }
+  },
+  {
+    "id": "OBJ-0145",
+    "objectName": "Bergblick Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Feldstraße 54",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.143994,
+      "longitude": 15.00864
+    }
+  },
+  {
+    "id": "OBJ-0146",
+    "objectName": "Werkhof Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Kirchstraße 76",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.054396,
+      "longitude": 13.748496
+    }
+  },
+  {
+    "id": "OBJ-0147",
+    "objectName": "Lindenhof Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 62",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.144256,
+      "longitude": 14.992134
+    }
+  },
+  {
+    "id": "OBJ-0148",
+    "objectName": "Alte Schule Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Industriestraße 25",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.742939,
+      "longitude": 12.475616
+    }
+  },
+  {
+    "id": "OBJ-0149",
+    "objectName": "Torhaus Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Hauptstraße 41",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.119135,
+      "longitude": 13.675166
+    }
+  },
+  {
+    "id": "OBJ-0150",
+    "objectName": "Am Bach Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 64",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.742141,
+      "longitude": 12.467737
+    }
+  },
+  {
+    "id": "OBJ-0151",
+    "objectName": "Panoramablick Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 13",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.912198,
+      "longitude": 13.335785
+    }
+  },
+  {
+    "id": "OBJ-0152",
+    "objectName": "Wiesenhaus Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 10",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.150475,
+      "longitude": 15.021344
+    }
+  },
+  {
+    "id": "OBJ-0153",
+    "objectName": "Alte Schule Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 43",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.325317,
+      "longitude": 13.316854
+    }
+  },
+  {
+    "id": "OBJ-0154",
+    "objectName": "Gartenhof Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 5",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.916773,
+      "longitude": 13.320234
+    }
+  },
+  {
+    "id": "OBJ-0155",
+    "objectName": "Panoramablick Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 56",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.025817,
+      "longitude": 13.667026
+    }
+  },
+  {
+    "id": "OBJ-0156",
+    "objectName": "Wiesenhaus Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Lindenstraße 89",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.171373,
+      "longitude": 14.390826
+    }
+  },
+  {
+    "id": "OBJ-0157",
+    "objectName": "Alte Schule Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Dresdner Straße 48",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.336234,
+      "longitude": 12.355194
+    }
+  },
+  {
+    "id": "OBJ-0158",
+    "objectName": "Am Bach Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Lindenstraße 23",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.416848,
+      "longitude": 14.261459
+    }
+  },
+  {
+    "id": "OBJ-0159",
+    "objectName": "Bergblick Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Stadtpark 75",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.106456,
+      "longitude": 12.49328
+    }
+  },
+  {
+    "id": "OBJ-0160",
+    "objectName": "Am Markt Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bahnhofstraße 60",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.51736,
+      "longitude": 12.150233
+    }
+  },
+  {
+    "id": "OBJ-0161",
+    "objectName": "Panoramablick Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Dresdner Straße 76",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.822258,
+      "longitude": 12.957642
+    }
+  },
+  {
+    "id": "OBJ-0162",
+    "objectName": "An der Mühle Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Kirchstraße 26",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.987469,
+      "longitude": 13.964733
+    }
+  },
+  {
+    "id": "OBJ-0163",
+    "objectName": "Am Stadtpark Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Dresdner Straße 74",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.096694,
+      "longitude": 13.67475
+    }
+  },
+  {
+    "id": "OBJ-0164",
+    "objectName": "Panoramablick Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Feldstraße 2",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.127596,
+      "longitude": 12.509006
+    }
+  },
+  {
+    "id": "OBJ-0165",
+    "objectName": "Torhaus Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Am Stadtpark 37",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.353487,
+      "longitude": 12.354208
+    }
+  },
+  {
+    "id": "OBJ-0166",
+    "objectName": "Torhaus Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Markt 80",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.109931,
+      "longitude": 13.12819
+    }
+  },
+  {
+    "id": "OBJ-0167",
+    "objectName": "Bahnhofquartier Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Schulstraße 81",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.131617,
+      "longitude": 12.482625
+    }
+  },
+  {
+    "id": "OBJ-0168",
+    "objectName": "Wiesenhaus Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Dresdner Straße 94",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.321271,
+      "longitude": 12.401774
+    }
+  },
+  {
+    "id": "OBJ-0169",
+    "objectName": "Wiesenhaus Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Lindenstraße 26",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.507108,
+      "longitude": 12.344759
+    }
+  },
+  {
+    "id": "OBJ-0170",
+    "objectName": "Bahnhofquartier Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Feldstraße 22",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.567349,
+      "longitude": 13.025128
+    }
+  },
+  {
+    "id": "OBJ-0171",
+    "objectName": "Sonnenhof Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Schulstraße 60",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.025045,
+      "longitude": 13.623653
+    }
+  },
+  {
+    "id": "OBJ-0172",
+    "objectName": "Bergblick Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 47",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.103815,
+      "longitude": 12.48862
+    }
+  },
+  {
+    "id": "OBJ-0173",
+    "objectName": "Am Bach Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 48",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.598941,
+      "longitude": 12.718664
+    }
+  },
+  {
+    "id": "OBJ-0174",
+    "objectName": "Parkhaus Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Schulstraße 87",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.705591,
+      "longitude": 12.460652
+    }
+  },
+  {
+    "id": "OBJ-0175",
+    "objectName": "Parkhaus Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 83",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.568461,
+      "longitude": 12.72927
+    }
+  },
+  {
+    "id": "OBJ-0176",
+    "objectName": "Bergblick Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Parkstraße 15",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.542189,
+      "longitude": 13.036238
+    }
+  },
+  {
+    "id": "OBJ-0177",
+    "objectName": "Bahnhofquartier Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Schulstraße 31",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.530363,
+      "longitude": 12.374496
+    }
+  },
+  {
+    "id": "OBJ-0178",
+    "objectName": "Alte Schule Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Parkstraße 76",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.134513,
+      "longitude": 13.086117
+    }
+  },
+  {
+    "id": "OBJ-0179",
+    "objectName": "Am Stadtpark Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Am Stadtpark 79",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.233406,
+      "longitude": 12.756607
+    }
+  },
+  {
+    "id": "OBJ-0180",
+    "objectName": "Wiesenhaus Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Am Markt 57",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.557435,
+      "longitude": 12.986528
+    }
+  },
+  {
+    "id": "OBJ-0181",
+    "objectName": "Sonnenhof Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Sonnenweg 83",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.174334,
+      "longitude": 14.41667
+    }
+  },
+  {
+    "id": "OBJ-0182",
+    "objectName": "Am Stadtpark Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 85",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.167005,
+      "longitude": 14.433565
+    }
+  },
+  {
+    "id": "OBJ-0183",
+    "objectName": "Werkhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 17",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.354049,
+      "longitude": 12.352464
+    }
+  },
+  {
+    "id": "OBJ-0184",
+    "objectName": "Parkhaus Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Markt 30",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.581728,
+      "longitude": 12.681929
+    }
+  },
+  {
+    "id": "OBJ-0185",
+    "objectName": "Torhaus Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Feldstraße 19",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.332076,
+      "longitude": 13.294515
+    }
+  },
+  {
+    "id": "OBJ-0186",
+    "objectName": "Sonnenhof Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Bahnhofstraße 17",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.871743,
+      "longitude": 14.827299
+    }
+  },
+  {
+    "id": "OBJ-0187",
+    "objectName": "Alte Schule Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bahnhofstraße 23",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.426168,
+      "longitude": 14.209373
+    }
+  },
+  {
+    "id": "OBJ-0188",
+    "objectName": "Am Bach Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Gartenstraße 61",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.576914,
+      "longitude": 12.992743
+    }
+  },
+  {
+    "id": "OBJ-0189",
+    "objectName": "Torhaus Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Talstraße 29",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.203671,
+      "longitude": 14.391836
+    }
+  },
+  {
+    "id": "OBJ-0190",
+    "objectName": "Bahnhofquartier Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Kirchstraße 59",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.131467,
+      "longitude": 12.463181
+    }
+  },
+  {
+    "id": "OBJ-0191",
+    "objectName": "Parkhaus Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Schulstraße 63",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.72952,
+      "longitude": 12.489949
+    }
+  },
+  {
+    "id": "OBJ-0192",
+    "objectName": "Am Bach Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 9",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.81361,
+      "longitude": 12.934002
+    }
+  },
+  {
+    "id": "OBJ-0193",
+    "objectName": "Am Bach Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Leipziger Straße 77",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.591828,
+      "longitude": 12.70336
+    }
+  },
+  {
+    "id": "OBJ-0194",
+    "objectName": "Panoramablick Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Schulstraße 84",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.827346,
+      "longitude": 12.563727
+    }
+  },
+  {
+    "id": "OBJ-0195",
+    "objectName": "Alte Schule Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Mühlenweg 30",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.159291,
+      "longitude": 13.495919
+    }
+  },
+  {
+    "id": "OBJ-0196",
+    "objectName": "Am Markt Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Industriestraße 55",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.810426,
+      "longitude": 12.527742
+    }
+  },
+  {
+    "id": "OBJ-0197",
+    "objectName": "An der Mühle Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 12",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.140889,
+      "longitude": 12.467526
+    }
+  },
+  {
+    "id": "OBJ-0198",
+    "objectName": "Lindenhof Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 72",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.503499,
+      "longitude": 12.373964
+    }
+  },
+  {
+    "id": "OBJ-0199",
+    "objectName": "Alte Schule Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Parkstraße 46",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.92958,
+      "longitude": 13.369679
+    }
+  },
+  {
+    "id": "OBJ-0200",
+    "objectName": "Lindenhof Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Kirchstraße 77",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.516122,
+      "longitude": 12.314252
+    }
+  },
+  {
+    "id": "OBJ-0201",
+    "objectName": "Lindenhof Meißen",
+    "description": "Synthetisches Testobjekt in Meißen im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Stadtpark 29",
+      "postalCode": "01662",
+      "city": "Meißen"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.180964,
+      "longitude": 13.462508
+    }
+  },
+  {
+    "id": "OBJ-0202",
+    "objectName": "Lindenhof Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Feldstraße 74",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.108708,
+      "longitude": 13.105338
+    }
+  },
+  {
+    "id": "OBJ-0203",
+    "objectName": "Panoramablick Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Sonnenweg 4",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.31315,
+      "longitude": 13.302748
+    }
+  },
+  {
+    "id": "OBJ-0204",
+    "objectName": "Wiesenhaus Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Lindenstraße 35",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.972635,
+      "longitude": 13.926629
+    }
+  },
+  {
+    "id": "OBJ-0205",
+    "objectName": "Am Markt Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Lindenstraße 19",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.125716,
+      "longitude": 13.103355
+    }
+  },
+  {
+    "id": "OBJ-0206",
+    "objectName": "Bahnhofquartier Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Gartenstraße 96",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.527024,
+      "longitude": 12.333334
+    }
+  },
+  {
+    "id": "OBJ-0207",
+    "objectName": "Am Bach Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Dresdner Straße 40",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.92198,
+      "longitude": 13.358178
+    }
+  },
+  {
+    "id": "OBJ-0208",
+    "objectName": "Gartenhof Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Hauptstraße 20",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.29057,
+      "longitude": 13.299949
+    }
+  },
+  {
+    "id": "OBJ-0209",
+    "objectName": "Alte Schule Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Mühlenweg 85",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.828501,
+      "longitude": 12.932795
+    }
+  },
+  {
+    "id": "OBJ-0210",
+    "objectName": "Gartenhof Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Talstraße 15",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.954759,
+      "longitude": 13.912762
+    }
+  },
+  {
+    "id": "OBJ-0211",
+    "objectName": "Alte Schule Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Am Stadtpark 68",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.132657,
+      "longitude": 12.464179
+    }
+  },
+  {
+    "id": "OBJ-0212",
+    "objectName": "Am Markt Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Bahnhofstraße 27",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.297771,
+      "longitude": 13.271486
+    }
+  },
+  {
+    "id": "OBJ-0213",
+    "objectName": "Am Markt Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Industriestraße 16",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.937886,
+      "longitude": 13.957291
+    }
+  },
+  {
+    "id": "OBJ-0214",
+    "objectName": "Gartenhof Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Sonnenweg 91",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.138506,
+      "longitude": 14.992611
+    }
+  },
+  {
+    "id": "OBJ-0215",
+    "objectName": "Parkhaus Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Leipziger Straße 95",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.099515,
+      "longitude": 13.076612
+    }
+  },
+  {
+    "id": "OBJ-0216",
+    "objectName": "Bergblick Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Parkstraße 74",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.827521,
+      "longitude": 12.93511
+    }
+  },
+  {
+    "id": "OBJ-0217",
+    "objectName": "Bahnhofquartier Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bahnhofstraße 42",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.164994,
+      "longitude": 14.455133
+    }
+  },
+  {
+    "id": "OBJ-0218",
+    "objectName": "Am Bach Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Gartenstraße 56",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.577424,
+      "longitude": 12.987032
+    }
+  },
+  {
+    "id": "OBJ-0219",
+    "objectName": "Sonnenhof Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Gartenstraße 51",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.737426,
+      "longitude": 12.511106
+    }
+  },
+  {
+    "id": "OBJ-0220",
+    "objectName": "Sonnenhof Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 66",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.917561,
+      "longitude": 13.340942
+    }
+  },
+  {
+    "id": "OBJ-0221",
+    "objectName": "Am Markt Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 31",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.10254,
+      "longitude": 13.093218
+    }
+  },
+  {
+    "id": "OBJ-0222",
+    "objectName": "Bahnhofquartier Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 23",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.330265,
+      "longitude": 13.300656
+    }
+  },
+  {
+    "id": "OBJ-0223",
+    "objectName": "Gartenhof Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Mühlenweg 88",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.459108,
+      "longitude": 14.240014
+    }
+  },
+  {
+    "id": "OBJ-0224",
+    "objectName": "Gartenhof Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Industriestraße 20",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.304688,
+      "longitude": 13.289524
+    }
+  },
+  {
+    "id": "OBJ-0225",
+    "objectName": "Bahnhofquartier Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Hauptstraße 46",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.002267,
+      "longitude": 13.635529
+    }
+  },
+  {
+    "id": "OBJ-0226",
+    "objectName": "Werkhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Dresdner Straße 37",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.318537,
+      "longitude": 12.398598
+    }
+  },
+  {
+    "id": "OBJ-0227",
+    "objectName": "Torhaus Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Talstraße 50",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.830436,
+      "longitude": 12.929102
+    }
+  },
+  {
+    "id": "OBJ-0228",
+    "objectName": "Bahnhofquartier Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 74",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.533092,
+      "longitude": 12.329507
+    }
+  },
+  {
+    "id": "OBJ-0229",
+    "objectName": "Wiesenhaus Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Hauptstraße 58",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.559675,
+      "longitude": 13.030339
+    }
+  },
+  {
+    "id": "OBJ-0230",
+    "objectName": "Bahnhofquartier Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Talstraße 83",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.543828,
+      "longitude": 12.987342
+    }
+  },
+  {
+    "id": "OBJ-0231",
+    "objectName": "Bergblick Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Talstraße 79",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.480237,
+      "longitude": 12.1289
+    }
+  },
+  {
+    "id": "OBJ-0232",
+    "objectName": "Gartenhof Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Industriestraße 87",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.723794,
+      "longitude": 12.514146
+    }
+  },
+  {
+    "id": "OBJ-0233",
+    "objectName": "Bergblick Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Industriestraße 13",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.913798,
+      "longitude": 13.330859
+    }
+  },
+  {
+    "id": "OBJ-0234",
+    "objectName": "Parkhaus Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bergstraße 43",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.504575,
+      "longitude": 12.353453
+    }
+  },
+  {
+    "id": "OBJ-0235",
+    "objectName": "Bergblick Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Leipziger Straße 17",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.127152,
+      "longitude": 13.14096
+    }
+  },
+  {
+    "id": "OBJ-0236",
+    "objectName": "Panoramablick Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Industriestraße 17",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.598806,
+      "longitude": 12.729627
+    }
+  },
+  {
+    "id": "OBJ-0237",
+    "objectName": "Am Stadtpark Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Gartenstraße 83",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.132823,
+      "longitude": 12.496594
+    }
+  },
+  {
+    "id": "OBJ-0238",
+    "objectName": "Sonnenhof Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Lindenstraße 28",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.114487,
+      "longitude": 13.128931
+    }
+  },
+  {
+    "id": "OBJ-0239",
+    "objectName": "Lindenhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Bergstraße 10",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.09669,
+      "longitude": 13.680968
+    }
+  },
+  {
+    "id": "OBJ-0240",
+    "objectName": "Am Markt Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Hauptstraße 85",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.582138,
+      "longitude": 12.725242
+    }
+  },
+  {
+    "id": "OBJ-0241",
+    "objectName": "Am Bach Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Bergstraße 21",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.291742,
+      "longitude": 13.305199
+    }
+  },
+  {
+    "id": "OBJ-0242",
+    "objectName": "Bahnhofquartier Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Hauptstraße 53",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.889215,
+      "longitude": 14.822371
+    }
+  },
+  {
+    "id": "OBJ-0243",
+    "objectName": "Torhaus Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Mühlenweg 30",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.309401,
+      "longitude": 13.278363
+    }
+  },
+  {
+    "id": "OBJ-0244",
+    "objectName": "Bahnhofquartier Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Dresdner Straße 87",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.533357,
+      "longitude": 12.433911
+    }
+  },
+  {
+    "id": "OBJ-0245",
+    "objectName": "Sonnenhof Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Talstraße 68",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.997833,
+      "longitude": 13.625144
+    }
+  },
+  {
+    "id": "OBJ-0246",
+    "objectName": "Lindenhof Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Feldstraße 7",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.314759,
+      "longitude": 13.317888
+    }
+  },
+  {
+    "id": "OBJ-0247",
+    "objectName": "Bahnhofquartier Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Schulstraße 37",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.160594,
+      "longitude": 14.400022
+    }
+  },
+  {
+    "id": "OBJ-0248",
+    "objectName": "Bahnhofquartier Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Parkstraße 12",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.601821,
+      "longitude": 12.982943
+    }
+  },
+  {
+    "id": "OBJ-0249",
+    "objectName": "Alte Schule Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Parkstraße 7",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.117223,
+      "longitude": 13.101477
+    }
+  },
+  {
+    "id": "OBJ-0250",
+    "objectName": "Panoramablick Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 4",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.823234,
+      "longitude": 12.897236
+    }
+  },
+  {
+    "id": "OBJ-0251",
+    "objectName": "Bahnhofquartier Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 18",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.214915,
+      "longitude": 12.754218
+    }
+  },
+  {
+    "id": "OBJ-0252",
+    "objectName": "Am Stadtpark Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Stadtpark 58",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.565967,
+      "longitude": 13.03341
+    }
+  },
+  {
+    "id": "OBJ-0253",
+    "objectName": "Alte Schule Pirna",
+    "description": "Synthetisches Testobjekt in Pirna im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Bergstraße 71",
+      "postalCode": "01796",
+      "city": "Pirna"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 50.984511,
+      "longitude": 13.947622
+    }
+  },
+  {
+    "id": "OBJ-0254",
+    "objectName": "Gartenhof Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 39",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.162492,
+      "longitude": 14.405491
+    }
+  },
+  {
+    "id": "OBJ-0255",
+    "objectName": "Lindenhof Riesa",
+    "description": "Synthetisches Testobjekt in Riesa im Gebiet Meißen. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Gartenstraße 15",
+      "postalCode": "01587",
+      "city": "Riesa"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.324534,
+      "longitude": 13.291688
+    }
+  },
+  {
+    "id": "OBJ-0256",
+    "objectName": "Am Bach Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Wiesenweg 92",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.032579,
+      "longitude": 13.732347
+    }
+  },
+  {
+    "id": "OBJ-0257",
+    "objectName": "Wiesenhaus Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Parkstraße 24",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.130619,
+      "longitude": 13.081293
+    }
+  },
+  {
+    "id": "OBJ-0258",
+    "objectName": "Am Stadtpark Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Sonnenweg 65",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.846621,
+      "longitude": 12.925834
+    }
+  },
+  {
+    "id": "OBJ-0259",
+    "objectName": "Panoramablick Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Hauptstraße 82",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.713244,
+      "longitude": 12.485031
+    }
+  },
+  {
+    "id": "OBJ-0260",
+    "objectName": "An der Mühle Dresden",
+    "description": "Synthetisches Testobjekt in Dresden im Gebiet Dresden. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Gartenstraße 45",
+      "postalCode": "01067",
+      "city": "Dresden"
+    },
+    "district": "Dresden",
+    "coordinates": {
+      "latitude": 51.037456,
+      "longitude": 13.748297
+    }
+  },
+  {
+    "id": "OBJ-0261",
+    "objectName": "Gartenhof Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 6",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.430515,
+      "longitude": 14.224198
+    }
+  },
+  {
+    "id": "OBJ-0262",
+    "objectName": "Panoramablick Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Am Stadtpark 81",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.880114,
+      "longitude": 14.78144
+    }
+  },
+  {
+    "id": "OBJ-0263",
+    "objectName": "Am Stadtpark Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Kirchstraße 26",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.47449,
+      "longitude": 12.116763
+    }
+  },
+  {
+    "id": "OBJ-0264",
+    "objectName": "Bergblick Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 51",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.935356,
+      "longitude": 13.341812
+    }
+  },
+  {
+    "id": "OBJ-0265",
+    "objectName": "Gartenhof Leipzig",
+    "description": "Synthetisches Testobjekt in Leipzig im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 46",
+      "postalCode": "04109",
+      "city": "Leipzig"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.357807,
+      "longitude": 12.341446
+    }
+  },
+  {
+    "id": "OBJ-0266",
+    "objectName": "Bahnhofquartier Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Schulstraße 48",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.907748,
+      "longitude": 13.331802
+    }
+  },
+  {
+    "id": "OBJ-0267",
+    "objectName": "Torhaus Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Lindenstraße 64",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.728503,
+      "longitude": 12.484614
+    }
+  },
+  {
+    "id": "OBJ-0268",
+    "objectName": "Werkhof Annaberg-Buchholz",
+    "description": "Synthetisches Testobjekt in Annaberg-Buchholz im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Gartenstraße 94",
+      "postalCode": "09456",
+      "city": "Annaberg-Buchholz"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.575725,
+      "longitude": 12.997543
+    }
+  },
+  {
+    "id": "OBJ-0269",
+    "objectName": "Bergblick Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Kirchstraße 42",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.87613,
+      "longitude": 14.794954
+    }
+  },
+  {
+    "id": "OBJ-0270",
+    "objectName": "Am Stadtpark Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Parkstraße 22",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.011388,
+      "longitude": 13.638408
+    }
+  },
+  {
+    "id": "OBJ-0271",
+    "objectName": "Am Stadtpark Delitzsch",
+    "description": "Synthetisches Testobjekt in Delitzsch im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Parkstraße 36",
+      "postalCode": "04509",
+      "city": "Delitzsch"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.532473,
+      "longitude": 12.362403
+    }
+  },
+  {
+    "id": "OBJ-0272",
+    "objectName": "Am Stadtpark Chemnitz",
+    "description": "Synthetisches Testobjekt in Chemnitz im Gebiet Chemnitz. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Dresdner Straße 66",
+      "postalCode": "09111",
+      "city": "Chemnitz"
+    },
+    "district": "Chemnitz",
+    "coordinates": {
+      "latitude": 50.847355,
+      "longitude": 12.937859
+    }
+  },
+  {
+    "id": "OBJ-0273",
+    "objectName": "Gartenhof Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Mühlenweg 5",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.133312,
+      "longitude": 14.97002
+    }
+  },
+  {
+    "id": "OBJ-0274",
+    "objectName": "Bahnhofquartier Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Leipziger Straße 73",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.099019,
+      "longitude": 13.086041
+    }
+  },
+  {
+    "id": "OBJ-0275",
+    "objectName": "Wiesenhaus Döbeln",
+    "description": "Synthetisches Testobjekt in Döbeln im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Mühlenweg 98",
+      "postalCode": "04720",
+      "city": "Döbeln"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 51.101244,
+      "longitude": 13.084939
+    }
+  },
+  {
+    "id": "OBJ-0276",
+    "objectName": "Am Markt Zwickau",
+    "description": "Synthetisches Testobjekt in Zwickau im Gebiet Zwickau. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Feldstraße 32",
+      "postalCode": "08056",
+      "city": "Zwickau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.741926,
+      "longitude": 12.460714
+    }
+  },
+  {
+    "id": "OBJ-0277",
+    "objectName": "Panoramablick Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Leipziger Straße 72",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.491888,
+      "longitude": 12.419248
+    }
+  },
+  {
+    "id": "OBJ-0278",
+    "objectName": "An der Mühle Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Kirchstraße 89",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.518124,
+      "longitude": 12.137184
+    }
+  },
+  {
+    "id": "OBJ-0279",
+    "objectName": "An der Mühle Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 23",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.171934,
+      "longitude": 14.984658
+    }
+  },
+  {
+    "id": "OBJ-0280",
+    "objectName": "Parkhaus Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Dresdner Straße 91",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.102547,
+      "longitude": 12.498952
+    }
+  },
+  {
+    "id": "OBJ-0281",
+    "objectName": "Sonnenhof Freital",
+    "description": "Synthetisches Testobjekt in Freital im Gebiet Sächsische Schweiz-Osterzgebirge. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Lindenstraße 47",
+      "postalCode": "01705",
+      "city": "Freital"
+    },
+    "district": "Sächsische Schweiz-Osterzgebirge",
+    "coordinates": {
+      "latitude": 51.002338,
+      "longitude": 13.622295
+    }
+  },
+  {
+    "id": "OBJ-0282",
+    "objectName": "Bahnhofquartier Görlitz",
+    "description": "Synthetisches Testobjekt in Görlitz im Gebiet Görlitz. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Am Stadtpark 4",
+      "postalCode": "02826",
+      "city": "Görlitz"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 51.145045,
+      "longitude": 14.993559
+    }
+  },
+  {
+    "id": "OBJ-0283",
+    "objectName": "Panoramablick Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Gartenstraße 9",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.580765,
+      "longitude": 12.741572
+    }
+  },
+  {
+    "id": "OBJ-0284",
+    "objectName": "Wiesenhaus Auerbach/Vogtl.",
+    "description": "Synthetisches Testobjekt in Auerbach/Vogtl. im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Parkstraße 53",
+      "postalCode": "08209",
+      "city": "Auerbach/Vogtl."
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.527167,
+      "longitude": 12.370163
+    }
+  },
+  {
+    "id": "OBJ-0285",
+    "objectName": "Parkhaus Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Mühlenweg 60",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.247005,
+      "longitude": 12.714116
+    }
+  },
+  {
+    "id": "OBJ-0286",
+    "objectName": "Am Stadtpark Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Lindenstraße 17",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.586931,
+      "longitude": 12.73535
+    }
+  },
+  {
+    "id": "OBJ-0287",
+    "objectName": "Panoramablick Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Bergstraße 39",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.164633,
+      "longitude": 14.411386
+    }
+  },
+  {
+    "id": "OBJ-0288",
+    "objectName": "Gartenhof Radebeul",
+    "description": "Synthetisches Testobjekt in Radebeul im Gebiet Meißen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Talstraße 37",
+      "postalCode": "01445",
+      "city": "Radebeul"
+    },
+    "district": "Meißen",
+    "coordinates": {
+      "latitude": 51.124197,
+      "longitude": 13.643342
+    }
+  },
+  {
+    "id": "OBJ-0289",
+    "objectName": "Lindenhof Aue-Bad Schlema",
+    "description": "Synthetisches Testobjekt in Aue-Bad Schlema im Gebiet Erzgebirgskreis. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Bergstraße 81",
+      "postalCode": "08280",
+      "city": "Aue-Bad Schlema"
+    },
+    "district": "Erzgebirgskreis",
+    "coordinates": {
+      "latitude": 50.580441,
+      "longitude": 12.708943
+    }
+  },
+  {
+    "id": "OBJ-0290",
+    "objectName": "Am Bach Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie B und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie B",
+    "address": {
+      "street": "Bergstraße 22",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.245937,
+      "longitude": 12.740444
+    }
+  },
+  {
+    "id": "OBJ-0291",
+    "objectName": "Torhaus Freiberg",
+    "description": "Synthetisches Testobjekt in Freiberg im Gebiet Mittelsachsen. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Hauptstraße 4",
+      "postalCode": "09599",
+      "city": "Freiberg"
+    },
+    "district": "Mittelsachsen",
+    "coordinates": {
+      "latitude": 50.889961,
+      "longitude": 13.370198
+    }
+  },
+  {
+    "id": "OBJ-0292",
+    "objectName": "Bahnhofquartier Hoyerswerda",
+    "description": "Synthetisches Testobjekt in Hoyerswerda im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Am Markt 74",
+      "postalCode": "02977",
+      "city": "Hoyerswerda"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.433729,
+      "longitude": 14.245229
+    }
+  },
+  {
+    "id": "OBJ-0293",
+    "objectName": "Torhaus Grimma",
+    "description": "Synthetisches Testobjekt in Grimma im Gebiet Leipzig. Das Objekt gehört zur Kategorie E und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie E",
+    "address": {
+      "street": "Kirchstraße 83",
+      "postalCode": "04668",
+      "city": "Grimma"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.260833,
+      "longitude": 12.723806
+    }
+  },
+  {
+    "id": "OBJ-0294",
+    "objectName": "Bahnhofquartier Borna",
+    "description": "Synthetisches Testobjekt in Borna im Gebiet Leipzig. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Kirchstraße 59",
+      "postalCode": "04552",
+      "city": "Borna"
+    },
+    "district": "Leipzig",
+    "coordinates": {
+      "latitude": 51.102949,
+      "longitude": 12.465194
+    }
+  },
+  {
+    "id": "OBJ-0295",
+    "objectName": "Werkhof Glauchau",
+    "description": "Synthetisches Testobjekt in Glauchau im Gebiet Zwickau. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Mühlenweg 27",
+      "postalCode": "08371",
+      "city": "Glauchau"
+    },
+    "district": "Zwickau",
+    "coordinates": {
+      "latitude": 50.81181,
+      "longitude": 12.519957
+    }
+  },
+  {
+    "id": "OBJ-0296",
+    "objectName": "Lindenhof Torgau",
+    "description": "Synthetisches Testobjekt in Torgau im Gebiet Nordsachsen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Dresdner Straße 52",
+      "postalCode": "04860",
+      "city": "Torgau"
+    },
+    "district": "Nordsachsen",
+    "coordinates": {
+      "latitude": 51.541738,
+      "longitude": 12.995938
+    }
+  },
+  {
+    "id": "OBJ-0297",
+    "objectName": "Am Markt Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Wiesenweg 60",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.162526,
+      "longitude": 14.420272
+    }
+  },
+  {
+    "id": "OBJ-0298",
+    "objectName": "Werkhof Bautzen",
+    "description": "Synthetisches Testobjekt in Bautzen im Gebiet Bautzen. Das Objekt gehört zur Kategorie A und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie A",
+    "address": {
+      "street": "Kirchstraße 50",
+      "postalCode": "02625",
+      "city": "Bautzen"
+    },
+    "district": "Bautzen",
+    "coordinates": {
+      "latitude": 51.199608,
+      "longitude": 14.418069
+    }
+  },
+  {
+    "id": "OBJ-0299",
+    "objectName": "Lindenhof Zittau",
+    "description": "Synthetisches Testobjekt in Zittau im Gebiet Görlitz. Das Objekt gehört zur Kategorie C und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie C",
+    "address": {
+      "street": "Industriestraße 25",
+      "postalCode": "02763",
+      "city": "Zittau"
+    },
+    "district": "Görlitz",
+    "coordinates": {
+      "latitude": 50.909156,
+      "longitude": 14.806879
+    }
+  },
+  {
+    "id": "OBJ-0300",
+    "objectName": "Lindenhof Plauen",
+    "description": "Synthetisches Testobjekt in Plauen im Gebiet Vogtlandkreis. Das Objekt gehört zur Kategorie D und dient ausschließlich als Beispieldatensatz für Suche, Filterung und Kartenansicht.",
+    "category": "Kategorie D",
+    "address": {
+      "street": "Kirchstraße 64",
+      "postalCode": "08523",
+      "city": "Plauen"
+    },
+    "district": "Vogtlandkreis",
+    "coordinates": {
+      "latitude": 50.473459,
+      "longitude": 12.168966
+    }
+  }
+]

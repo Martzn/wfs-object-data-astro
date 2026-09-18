@@ -1,0 +1,94 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<style>
+  header,
+  main,
+  footer {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  header {
+    .logo {
+      display: block;
+      width: 192px;
+      height: 80px;
+      background-color: var(--primary-color);
+    }
+
+    nav {
+      display: flex;
+      justify-content: end;
+      gap: var(--space-default);
+      padding-left: var(--space-default);
+      padding-right: var(--space-default);
+
+      a {
+        color: var(--text-color);
+      }
+    }
+  }
+
+  footer {
+    nav {
+      padding: var(--space-default);
+      background-color: var(--background-color);
+    }
+  }
+</style>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://standort-sachsen.de/_assets/dd230142dbbe782c561d161c1cb29928/Images/favicon/favicon-32x32.png"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <nav>
+        <a href="#">Unsere Portale</a>
+        <a href="#">Kontakt</a>
+        <a href="#">Impressum</a>
+        <a href="#">Sprache </a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+      <!-- your content is injected here -->
+    </main>
+    <footer>
+      <nav>Footer</nav>
+    </footer>
+  </body>
+</html>
