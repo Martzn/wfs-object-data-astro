@@ -18,7 +18,7 @@ const menu = getNavigation(locale);
           <nav aria-label={t.navigation}><ul class="nav navbar-nav">{menu.footerLinks.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul></nav>
           <div class="hidden-xs"><LanguageSwitcher locale={locale} footer /></div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-print-12 copyright"><span>{t.provider}</span><img class="img-responsive hidden-sm hidden-md hidden-lg" src="/brand/wfs-mobile.png" alt="Logo Wirtschaftsförderung Sachsen mbH" /></div>
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-print-12 copyright"><span>{t.provider}</span><img class="img-responsive hidden-sm hidden-md hidden-lg" src="/brand/wfs-mobile.png" alt={t.organizationLogo} /></div>
       </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@ const menu = getNavigation(locale);
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
         <h2>{t.contact}</h2>
         <div class="vcard">
-          <p class="company">Wirtschaftsförderung Sachsen GmbH (WFS)</p>
+          <p class="company">{t.company}</p>
           <address class="adr"><p class="street-address">Bertolt-Brecht-Allee 22</p><span class="postal-code">01309</span>&nbsp;<span class="locality">Dresden</span></address>
           <p class="tel work">{t.phone}: +49 (351) 2138-0</p>
           <p class="tel work fax">{t.fax}: +49 (351) 2138-399</p>

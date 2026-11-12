@@ -1,7 +1,10 @@
 import * as cheerio from 'cheerio';
 import { mkdir, writeFile } from 'node:fs/promises';
 
-const source = 'https://firmen.standort-sachsen.de/company/de/';
+const sources = {
+  de: 'https://firmen.standort-sachsen.de/company/de/',
+  en: 'https://firmen.standort-sachsen.de/company/en/',
+};
 const root = new URL('../', import.meta.url);
 const assets = [
   ['header .servicenavigation img', 'wfs.svg', 'src'],
@@ -16,13 +19,13 @@ async function download(url) {
   return response;
 }
 
-async function loadPage() {
+async function loadPage(source) {
   const response = await download(source);
   const html = await response.text();
-  return cheerio.load(html);
+  return { page: cheerio.load(html), source: response.url };
 }
 
-function extractLink(page, element) {
+function extractLink(page, element, source) {
   const node = page(element);
   const label = node.text().replace(/\s+/g, ' ').trim();
   const raw = node.attr('href');
@@ -32,19 +35,19 @@ function extractLink(page, element) {
   return { label, href: href.href };
 }
 
-function extractLinks(page, selector) {
-  const result = page(selector).toArray().map(element => extractLink(page, element));
+function extractLinks(page, selector, source) {
+  const result = page(selector).toArray().map(element => extractLink(page, element, source));
   if (!result.length) throw new Error(`Menü fehlt: ${selector}`);
   return result;
 }
 
-function extractFooterGroups(page) {
+function extractFooterGroups(page, source) {
   const groups = page('footer nav').toArray()
     .filter(element => page(element).children('h2').length)
     .map(element => ({
-      ...extractLink(page, page(element).children('h2').find('a').get(0)),
+      ...extractLink(page, page(element).children('h2').find('a').get(0), source),
       links: page(element).children('ul').find('a').toArray()
-        .map(link => extractLink(page, link)),
+        .map(link => extractLink(page, link, source)),
     }));
 
   if (!groups.length || groups.some(group => !group.links.length)) {
@@ -53,30 +56,33 @@ function extractFooterGroups(page) {
   return groups;
 }
 
-function extractNavigation(page) {
+function extractNavigation(page, source) {
   return {
     source,
-    portals: extractLinks(page, 'header .portal-selection-desktop .dropdown-menu a'),
-    headerLinks: extractLinks(page, 'header .servicenavigation nav > ul > li > a:not(.dropdown-toggle)'),
-    footerLinks: extractLinks(page, 'footer .servicenavigation nav a'),
-    footerGroups: extractFooterGroups(page),
+    portals: extractLinks(page, 'header .portal-selection-desktop .dropdown-menu a', source),
+    headerLinks: extractLinks(page, 'header .servicenavigation nav > ul > li > a:not(.dropdown-toggle)', source),
+    footerLinks: extractLinks(page, 'footer .servicenavigation nav a', source),
+    footerGroups: extractFooterGroups(page, source),
   };
 }
 
-async function saveNavigation(data) {
+async function saveNavigation(data, locale) {
   await mkdir(new URL('src/data/', root), { recursive: true });
-  await writeFile(new URL('src/data/navigation.de.json', root), JSON.stringify(data, null, 2) + '\n');
+  await writeFile(new URL(`src/data/navigation.${locale}.json`, root), JSON.stringify(data, null, 2) + '\n');
 }
 
-async function syncAssets(page) {
+async function syncAssets(page, source, locale) {
   const directory = new URL('public/brand/', root);
   await mkdir(directory, { recursive: true });
 
   const logo = page('#logo svg').first().toString();
   if (!logo) throw new Error('Sachsen-Logo fehlt.');
-  await writeFile(new URL('sachsen.svg', directory), logo);
+  await writeFile(new URL(locale === 'de' ? 'sachsen.svg' : `sachsen.${locale}.svg`, directory), logo);
 
-  for (const [selector, filename, attribute] of assets) {
+  const localeAssets = locale === 'de' ? assets : [
+    ['header .servicenavigation img', `wfs.${locale}.svg`, 'src'],
+  ];
+  for (const [selector, filename, attribute] of localeAssets) {
     const path = page(selector).first().attr(attribute);
     if (!path) throw new Error(`Asset fehlt: ${selector}`);
     const response = await download(new URL(path, source));
@@ -84,20 +90,23 @@ async function syncAssets(page) {
     await writeFile(new URL(filename, directory), Buffer.from(bytes));
   }
 
-  await import('./sync-chrome-styles.mjs');
 }
 
 async function main() {
-  const page = await loadPage();
-  const data = extractNavigation(page);
-  await saveNavigation(data);
+  const refreshAssets = process.argv.includes('--assets');
 
-  // Assets are refreshed explicitly, not on every build.
-  if (process.argv.includes('--assets')) {
-    await syncAssets(page);
+  for (const [locale, url] of Object.entries(sources)) {
+    const { page, source } = await loadPage(url);
+    const data = extractNavigation(page, source);
+    await saveNavigation(data, locale);
+
+    if (refreshAssets) await syncAssets(page, source, locale);
+
+    console.log(`Navigation (${locale}) importiert: ${data.portals.length} Portale, ${data.footerGroups.length} Footer-Gruppen.`);
   }
 
-  console.log(`Navigation importiert: ${data.portals.length} Portale, ${data.footerGroups.length} Footer-Gruppen.`);
+  // Shared CSS and fonts only need to be refreshed once.
+  if (refreshAssets) await import('./sync-chrome-styles.mjs');
 }
 
 await main();

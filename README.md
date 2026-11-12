@@ -61,7 +61,8 @@ die Dropdown-Bedienung ist ohne jQuery lokal implementiert. Kontaktangaben und M
 ## Mehrsprachigkeit
 
 `src/i18n/config.ts` enthält ausschließlich aktivierte Sprachen, Standardsprache
-und Sprachnamen. Die deutschen UI-Texte liegen nach Bereichen getrennt in:
+fest. Sprachnamen stehen sprachspezifisch in den jeweiligen `layout.ts`-Dateien. Die UI-Texte liegen nach Sprache und Bereich getrennt in `src/i18n/de/` und
+`src/i18n/en/`, jeweils mit folgenden Dateien:
 
 - `src/i18n/de/common.ts`: gemeinsame Texte.
 - `src/i18n/de/layout.ts`: Header, Footer und Sprachwahl.
@@ -71,9 +72,12 @@ und Sprachnamen. Die deutschen UI-Texte liegen nach Bereichen getrennt in:
 `src/i18n/messages.ts` bündelt die Bereiche und prüft über `Record<Locale, Messages>`,
 dass jede aktivierte Sprache alle Bereiche, Schlüssel und Werttypen bereitstellt.
 Komponenten verwenden beispielsweise `translate(locale).search`.
-Externe Menüinhalte bleiben separat in `src/data/navigation.de.json`.
+Externe Menüinhalte liegen in `src/data/navigation.de.json` und
+`src/data/navigation.en.json`. Der Build importiert beide Quellen; relative URLs
+werden anhand der endgültigen URL nach Weiterleitungen aufgelöst.
 
-Alle Inhaltsseiten haben ein Sprachpräfix: `/de/` und `/de/objects/OBJ-0001/`.
+Alle Inhaltsseiten haben ein Sprachpräfix: `/de/`, `/en/` sowie beispielsweise
+`/de/objects/OBJ-0001/` und `/en/objects/OBJ-0001/`.
 `src/i18n/paths.ts` erzeugt diese Pfade zentral, auch für Suchlinks und Rücksprünge.
 Die statischen Routen unter `src/pages/[locale]/` werden für die aktivierten
 Sprachen erzeugt. `/objects.json` bleibt ein gemeinsam genutzter Datenendpunkt;
@@ -85,10 +89,20 @@ Objektrouten ohne Sprachpräfix existieren nicht. Im statischen Build erzeugt
 Astro für die Startseite eine HTML-Weiterleitung; HTTP-Weiterleitungen können
 später beim Hosting ergänzt werden.
 
-Aktuell ist nur Deutsch aktiviert. Für weitere Sprachen Übersetzungsbereiche
-und Menüdaten ergänzen und registrieren, dann die Sprache in `locales` aktivieren
-und die Sprachwahl um die entsprechenden Links erweitern. Die Inhaltsrouten
-werden automatisch erzeugt; Objektinhalte werden nicht automatisch übersetzt.
+Deutsch und Englisch sind aktiviert. Die Sprachwahl behält die aktuelle Seite
+bei und übernimmt mit JavaScript auch Suchparameter und URL-Fragmente. Auf
+Detailseiten wird dasselbe Objekt in der anderen Sprachversion geöffnet.
+Objektnamen, Beschreibungen, Kategorien und andere Objektinhalte bleiben in
+beiden Sprachen unverändert; Oberfläche und Navigation werden übersetzt.
+Die Quellseite für englische Menüs ist `/company/en/` und leitet derzeit auf
+https://companies.business-saxony.com/company/en/ weiter. Deutschsprachige
+Portaltexte in dieser Quelle werden unverändert importiert.
+`sync:assets` speichert zusätzlich die englischen Sachsen- und WFS-Logos lokal.
+
+Für weitere Sprachen Übersetzungsbereiche und Menüdaten ergänzen und in
+`messages.ts`, `navigation.ts` und `scripts/sync-navigation.mjs` registrieren,
+dann die Sprache in `locales` und den übersetzten `languageNames` ergänzen. Die Inhaltsrouten
+und die Sprachwahl werden automatisch erweitert.
 
 Node.js mindestens 22.19 verwenden (Cheerio-Abhängigkeit).
 
@@ -105,5 +119,5 @@ Reset, Breakpoints, Typografie, Farben und Raster stammen aus der Vorlage.
 Eigene Komponenten ergänzen nur die anwendungsspezifische Darstellung.
 Mit `npm run sync:styles -- --offline` lässt sich das globale Stylesheet aus
 den bereits gespeicherten CSS-Quelldateien ohne Download neu erzeugen.
-Die Sprachwahl enthält weiterhin nur Deutsch. Die Versionszeile verwendet
+Die Sprachwahl bietet Deutsch und Englisch an. Die Versionszeile verwendet
 Name und Version dieser Anwendung statt der KWeC-Versionsangabe der Quelle.

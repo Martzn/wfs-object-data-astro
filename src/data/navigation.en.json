@@ -1,0 +1,179 @@
+{
+  "source": "https://companies.business-saxony.com/company/en/",
+  "portals": [
+    {
+      "label": "Investieren und Wachstum realisieren",
+      "href": "https://standort-sachsen.de/de/investoren"
+    },
+    {
+      "label": "Exportieren und Märkte erschließen",
+      "href": "https://standort-sachsen.de/de/exporteure"
+    },
+    {
+      "label": "Kooperieren und Zulieferer finden",
+      "href": "https://standort-sachsen.de/de/kaeufer"
+    },
+    {
+      "label": "Gründen und Ideen verwirklichen",
+      "href": "https://standort-sachsen.de/de/gruender"
+    }
+  ],
+  "headerLinks": [
+    {
+      "label": "Contact",
+      "href": "https://business-saxony.com/en/contact"
+    },
+    {
+      "label": "Imprint",
+      "href": "https://business-saxony.com/en/imprint"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "Privacy",
+      "href": "https://business-saxony.com/en/privacy"
+    },
+    {
+      "label": "Contact",
+      "href": "https://business-saxony.com/en/contact"
+    },
+    {
+      "label": "Imprint",
+      "href": "https://business-saxony.com/en/imprint"
+    }
+  ],
+  "footerGroups": [
+    {
+      "label": "About Saxony",
+      "href": "https://business-saxony.com/en/about-saxony",
+      "links": [
+        {
+          "label": "Economy",
+          "href": "https://business-saxony.com/en/about-saxony/economy"
+        },
+        {
+          "label": "Infrastructure",
+          "href": "https://business-saxony.com/en/about-saxony/infrastructure"
+        },
+        {
+          "label": "Innovative Power",
+          "href": "https://business-saxony.com/en/about-saxony/innovative-power"
+        },
+        {
+          "label": "Labor Market",
+          "href": "https://business-saxony.com/en/about-saxony/labor-market"
+        },
+        {
+          "label": "Costs",
+          "href": "https://business-saxony.com/en/about-saxony/costs"
+        },
+        {
+          "label": "Subsidy Programs",
+          "href": "https://business-saxony.com/en/about-saxony/subsidy-programs"
+        },
+        {
+          "label": "Quality of Life",
+          "href": "https://business-saxony.com/en/about-saxony/quality-of-life"
+        }
+      ]
+    },
+    {
+      "label": "Industry Sectors",
+      "href": "https://business-saxony.com/en/industry-sectors",
+      "links": [
+        {
+          "label": "Automotive Industry",
+          "href": "https://business-saxony.com/en/industry-sectors/automotive-industry"
+        },
+        {
+          "label": "Mechanical Engineering",
+          "href": "https://business-saxony.com/en/industry-sectors/mechanical-engineering"
+        },
+        {
+          "label": "Microelectronics / ICT",
+          "href": "https://business-saxony.com/en/industry-sectors/microelectronics-ict"
+        },
+        {
+          "label": "Environmental and Energy Technology",
+          "href": "https://business-saxony.com/en/industry-sectors/environmental-and-energy-technology"
+        },
+        {
+          "label": "Life Sciences",
+          "href": "https://business-saxony.com/en/industry-sectors/life-sciences"
+        },
+        {
+          "label": "Further Sectors",
+          "href": "https://business-saxony.com/en/industry-sectors/further-sectors"
+        },
+        {
+          "label": "Cross-sectoral Fields of Competence",
+          "href": "https://business-saxony.com/en/industry-sectors/cross-sectoral-fields-of-competence"
+        }
+      ]
+    },
+    {
+      "label": "Our Service",
+      "href": "https://business-saxony.com/en/service",
+      "links": [
+        {
+          "label": "Information Service",
+          "href": "https://business-saxony.com/en/service/information-service"
+        },
+        {
+          "label": "Support for Investment Projects",
+          "href": "https://business-saxony.com/en/service/support-for-investment-projects"
+        },
+        {
+          "label": "Support for Business Expansions",
+          "href": "https://business-saxony.com/en/service/support-for-business-expansions"
+        },
+        {
+          "label": "Supporting Market Development",
+          "href": "https://business-saxony.com/en/service/supporting-market-development"
+        },
+        {
+          "label": "Initiating Cooperation",
+          "href": "https://business-saxony.com/en/service/initiating-cooperation"
+        },
+        {
+          "label": "Service for Business Founders",
+          "href": "https://business-saxony.com/en/service/service-for-business-founders"
+        },
+        {
+          "label": "Sector-specific and Networking Expertise",
+          "href": "https://business-saxony.com/en/service/sector-specific-and-networking-expertise"
+        },
+        {
+          "label": "Location Marketing",
+          "href": "https://business-saxony.com/en/service/location-marketing"
+        },
+        {
+          "label": "About us",
+          "href": "https://business-saxony.com/en/service/about-us"
+        }
+      ]
+    },
+    {
+      "label": "Info Center",
+      "href": "https://business-saxony.com/en/info-center",
+      "links": [
+        {
+          "label": "Find your contact person",
+          "href": "https://business-saxony.com/en/info-center/contacts"
+        },
+        {
+          "label": "Downloads",
+          "href": "https://business-saxony.com/en/info-center/downloads"
+        },
+        {
+          "label": "Databases",
+          "href": "https://business-saxony.com/en/info-center/databases"
+        },
+        {
+          "label": "Success Stories and Statements",
+          "href": "https://business-saxony.com/en/info-center/success-stories-statements"
+        }
+      ]
+    }
+  ]
+}

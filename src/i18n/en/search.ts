@@ -1,0 +1,23 @@
+export default {
+  searchTitle: 'Search properties',
+  query: 'Search term',
+  queryPlaceholder: 'Name, town or postal code',
+  category: 'Category',
+  allCategories: 'All categories',
+  district: 'District',
+  allDistricts: 'All districts',
+  reset: 'Reset',
+  loading: 'Loading properties …',
+  searchPrompt: 'Enter a search term or select a filter.',
+  noResults: 'No results. Please change your search term or filters.',
+  results: 'Search results',
+  name: 'Name',
+  address: 'Address',
+  resultPages: 'Result pages',
+  searchNavigation: 'Search result navigation',
+  backToSearch: 'Back to search',
+  loadError: 'The properties could not be loaded. Please try again.',
+  noScript: 'JavaScript must be enabled to use the property search.',
+  resultSummary: (count: number, first: number, last: number) =>
+    `${count} ${count === 1 ? 'property' : 'properties'} found · Results ${first}–${last}`,
+};

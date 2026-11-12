@@ -3,11 +3,16 @@ import { translate } from '../i18n/messages';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { getNavigation } from '../lib/navigation';
 import { type Locale } from '../i18n/config';
-import logo from '../../public/brand/sachsen.svg?raw';
+import deLogo from '../../public/brand/sachsen.svg?raw';
+import enLogo from '../../public/brand/sachsen.en.svg?raw';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = translate(locale).layout;
 const menu = getNavigation(locale);
+const logo = locale === 'en' ? enLogo : deLogo;
+const siteUrl = locale === 'en' ? 'https://business-saxony.com/en' : 'https://standort-sachsen.de';
+const organizationUrl = locale === 'en' ? 'https://wfs.saxony.de/' : 'https://wfs.sachsen.de/';
+const organizationLogo = locale === 'en' ? '/brand/wfs.en.svg' : '/brand/wfs.svg';
 const portalIcons = ['icon-invest', 'icon-globe', 'icon-gear', 'icon-establish'];
 ---
 <div class="site-chrome">
@@ -17,14 +22,14 @@ const portalIcons = ['icon-invest', 'icon-globe', 'icon-gear', 'icon-establish']
       <div class="row">
         <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 logo-slogan">
           <div class="media">
-            <div class="media-left"><div id="logo"><a href="https://standort-sachsen.de" aria-label="Standort Sachsen"><Fragment set:html={logo} /></a></div></div>
+            <div class="media-left"><div id="logo"><a href={siteUrl} aria-label={t.siteName}><Fragment set:html={logo} /></a></div></div>
             <div class="media-body hidden-xs hidden-sm"><div class="slogan">{t.slogan}</div></div>
           </div>
         </div>
         <div class="col-xs-6 col-sm-8 col-md-6 col-lg-6">
           <div class="servicenavigation hidden-xs">
             <div class="row">
-              <div class="col-xs-12"><a href="https://wfs.sachsen.de/"><div class="logo hidden-xs pull-right"><img style="height:26px;margin-top:38px;" src="/brand/wfs.svg" alt="Logo Wirtschaftsförderung Sachsen GmbH (WFS)" /></div></a></div>
+              <div class="col-xs-12"><a href={organizationUrl}><div class="logo hidden-xs pull-right"><img style="height:26px;margin-top:38px;" src={organizationLogo} alt={t.organizationLogo} /></div></a></div>
               <div class="col-xs-12">
                 <nav aria-label={t.navigation}>
                   <ul class="nav navbar-nav pull-right">

@@ -1,6 +1,7 @@
 ---
+import { languagePath } from '../i18n/paths';
 import { translate } from '../i18n/messages';
-import { defaultLocale, languageNames, type Locale } from '../i18n/config';
+import { defaultLocale, locales, type Locale } from '../i18n/config';
 interface Props { locale?: Locale; mobile?: boolean; footer?: boolean; tag?: "div" | "li" }
 const { locale = defaultLocale, mobile = false, footer = false, tag: Tag = "div" } = Astro.props;
 const t = translate(locale).layout;
@@ -10,6 +11,26 @@ const t = translate(locale).layout;
     <span class="icon-globe" aria-hidden="true"></span>{!mobile && <> {t.language} <span class="caret"></span></>}
   </a>
   <ul class:list={['dropdown-menu', { 'dropdown-menu-right': !footer }]}>
-    <li><strong style="padding:3px 20px;" lang={locale} aria-current="true">{languageNames[locale]}</strong></li>
+    {locales.map(language => <li>
+      {language === locale
+        ? <strong style="padding:3px 20px;" lang={locale} aria-current="true">{t.languageNames[language]}</strong>
+        : <a href={languagePath(Astro.url.pathname, language)} lang={locale} hreflang={language} data-language-link>{t.languageNames[language]}</a>}
+    </li>)}
   </ul>
 </Tag>
+
+<script>
+  // Static pages do not know query parameters at build time.
+  document.querySelectorAll<HTMLAnchorElement>('[data-language-link]').forEach(link => {
+    function updateTarget() {
+      const target = new URL(link.href);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      link.href = target.href;
+    }
+    updateTarget();
+    // Search filters may change the URL after hydration.
+    link.addEventListener('click', updateTarget);
+    link.addEventListener('auxclick', updateTarget);
+  });
+</script>

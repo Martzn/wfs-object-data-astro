@@ -1,4 +1,7 @@
+import type { Locale } from '../config';
+
 export default {
+  languageNames: { de: 'Deutsch', en: 'Englisch' } satisfies Record<Locale, string>,
   portals: 'Unsere Portale',
   portalSelection: 'Portalauswahl',
   language: 'Sprache',
@@ -12,4 +15,7 @@ export default {
   phone: 'Telefon',
   fax: 'Fax',
   version: 'Version',
+  company: 'Wirtschaftsförderung Sachsen GmbH (WFS)',
+  siteName: 'Standort Sachsen',
+  organizationLogo: 'Logo Wirtschaftsförderung Sachsen GmbH (WFS)',
 };
