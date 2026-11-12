@@ -1,11 +1,12 @@
 ---
+import { translate } from '../i18n/messages';
 import { version } from '../../package.json';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { getNavigation } from '../lib/navigation';
-import { translate, type Locale } from '../i18n/config';
+import { type Locale } from '../i18n/config';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
-const t = translate(locale);
+const { layout: t, common } = translate(locale);
 const menu = getNavigation(locale);
 ---
 <div class="site-chrome">
@@ -30,13 +31,13 @@ const menu = getNavigation(locale);
         <div class="vcard">
           <p class="company">Wirtschaftsförderung Sachsen GmbH (WFS)</p>
           <address class="adr"><p class="street-address">Bertolt-Brecht-Allee 22</p><span class="postal-code">01309</span>&nbsp;<span class="locality">Dresden</span></address>
-          <p class="tel work">Telefon: +49 (351) 2138-0</p>
-          <p class="tel work fax">Fax: +49 (351) 2138-399</p>
+          <p class="tel work">{t.phone}: +49 (351) 2138-0</p>
+          <p class="tel work fax">{t.fax}: +49 (351) 2138-399</p>
           <a class="email icon-arrow-right" href="mailto:info@wfs.saxony.de">{t.email}</a>
         </div>
       </div>
     </div>
   </section>
-  <div class="text-center muted print-hidden"><span>{t.database}</span> – Version {version}</div>
+  <div class="text-center muted print-hidden"><span>{common.database}</span> – {t.version} {version}</div>
 </footer>
 </div>

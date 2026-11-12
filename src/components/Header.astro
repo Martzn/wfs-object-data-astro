@@ -1,11 +1,12 @@
 ---
+import { translate } from '../i18n/messages';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { getNavigation } from '../lib/navigation';
-import { translate, type Locale } from '../i18n/config';
+import { type Locale } from '../i18n/config';
 import logo from '../../public/brand/sachsen.svg?raw';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
-const t = translate(locale);
+const t = translate(locale).layout;
 const menu = getNavigation(locale);
 const portalIcons = ['icon-invest', 'icon-globe', 'icon-gear', 'icon-establish'];
 ---
@@ -28,7 +29,7 @@ const portalIcons = ['icon-invest', 'icon-globe', 'icon-gear', 'icon-establish']
                 <nav aria-label={t.navigation}>
                   <ul class="nav navbar-nav pull-right">
                     <li class="portal-selection-desktop">
-                      <a href="#" role="button" class="dropdown-toggle" data-chrome-toggle aria-haspopup="true" aria-expanded="false" title="Portalauswahl"> {t.portals} <span class="caret"></span></a>
+                      <a href="#" role="button" class="dropdown-toggle" data-chrome-toggle aria-haspopup="true" aria-expanded="false" title={t.portalSelection}> {t.portals} <span class="caret"></span></a>
                       <ul class="dropdown-menu">{menu.portals.map((link, index) => <li><a href={link.href} class:list={[portalIcons[index], 'icon-padding']}>{link.label}</a></li>)}</ul>
                     </li>
                     {menu.headerLinks.map(link => <li><a href={link.href}>{link.label}</a></li>)}

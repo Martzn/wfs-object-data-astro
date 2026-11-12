@@ -1,26 +1,27 @@
 ---
-import SiteLayout from "../../layouts/SiteLayout.astro";
-import { getObjects } from "../../lib/objects";
-import SearchNavigation from "../../components/SearchNavigation.vue";
+import SiteLayout from "../../../layouts/SiteLayout.astro";
+import { getObjects } from "../../../lib/objects";
+import SearchNavigation from "../../../components/SearchNavigation.vue";
 
-import { defaultLocale, translate } from "../../i18n/config";
-const t = translate(defaultLocale);
+import { locales } from "../../../i18n/config";
+import { translate } from "../../../i18n/messages";
 
 export async function getStaticPaths() {
   const objects = await getObjects();
 
-  return objects.map((object) => ({
-    params: { id: object.id },
-    props: { object },
-  }));
+  return locales.flatMap(locale => objects.map((object) => ({
+    params: { locale, id: object.id },
+    props: { object, locale },
+  })));
 }
 
-const { object } = Astro.props;
+const { object, locale } = Astro.props;
+const t = translate(locale).objectDetails;
 ---
 
-<SiteLayout title={object.objectName}>
+<SiteLayout title={object.objectName} locale={locale}>
   <h1>{object.objectName}</h1>
-  <SearchNavigation objectId={object.id} locale={defaultLocale} client:load />
+  <SearchNavigation objectId={object.id} locale={locale} client:load />
   <div class="object-details">
     <div class="description">
       <p>{object.description}</p>

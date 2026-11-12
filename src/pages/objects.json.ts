@@ -1,3 +1,4 @@
+import { objectPath } from "../i18n/paths";
 import type { APIRoute } from "astro";
 import { getObjects } from "../lib/objects";
 
@@ -13,7 +14,7 @@ export const GET: APIRoute = async () => {
     category: object.category,
     address: object.address,
     district: object.district,
-    url: `/objects/${encodeURIComponent(object.id)}/`,
+    url: objectPath(object.id),
   }));
 
   return new Response(JSON.stringify(searchData), {

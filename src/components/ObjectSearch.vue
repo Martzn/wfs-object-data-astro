@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import { translate } from "../i18n/messages";
 import { computed } from "vue";
 import { objectSearchUrl, PAGE_SIZE } from "../lib/search";
 import { useObjectSearch } from "../lib/useObjectSearch";
 
-import { defaultLocale, translate, type Locale } from "../i18n/config";
+import { defaultLocale, type Locale } from "../i18n/config";
 const props = withDefaults(defineProps<{ locale?: Locale }>(), { locale: defaultLocale });
-const t = computed(() => translate(props.locale));
+const t = computed(() => translate(props.locale).search);
+const common = computed(() => translate(props.locale).common);
 
 const { criteria, objects, loading, error, ready, params, active, matches, load, reset,
   page, pageCount, pagedMatches, goToPage } = useObjectSearch(true, props.locale);
@@ -49,7 +51,7 @@ const districts = computed(() => options("district"));
       <template v-else-if="matches.length">{{ t.resultSummary(matches.length, (page - 1) * PAGE_SIZE + 1, Math.min(page * PAGE_SIZE, matches.length)) }}</template>
       <template v-else>{{ t.noResults }}</template>
     </p>
-    <button v-if="error" type="button" @click="load">{{ t.retry }}</button>
+    <button v-if="error" type="button" @click="load">{{ common.retry }}</button>
     <table v-if="active && !loading && !error" class="resultTable" :aria-label="t.results">
       <thead>
         <tr>
@@ -61,7 +63,7 @@ const districts = computed(() => options("district"));
       </thead>
       <tbody>
         <tr v-for="object in pagedMatches" :key="object.id">
-          <td><a :href="objectSearchUrl(object.id, params)">{{ object.objectName }}</a></td>
+          <td><a :href="objectSearchUrl(object.id, params, props.locale)">{{ object.objectName }}</a></td>
           <td>{{ object.address.street }}, {{ object.address.postalCode }} {{ object.address.city }}</td>
           <td>{{ object.category }}</td>
           <td>{{ object.district }}</td>

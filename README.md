@@ -60,15 +60,35 @@ die Dropdown-Bedienung ist ohne jQuery lokal implementiert. Kontaktangaben und M
 
 ## Mehrsprachigkeit
 
-`src/i18n/config.ts` enthält aktivierte Sprachen, Standardsprache und UI-Texte
-(einschließlich der Vue-Suche). Astro verwendet dieselbe Sprachkonfiguration.
-Deutsch bleibt ohne URL-Präfix erreichbar. Aktuell gibt es nur Deutsch; die
-Sprachanzeige bietet deshalb keine anderen Sprachziele an.
+`src/i18n/config.ts` enthält ausschließlich aktivierte Sprachen, Standardsprache
+und Sprachnamen. Die deutschen UI-Texte liegen nach Bereichen getrennt in:
 
-Für eine weitere Sprache: Übersetzungen und Menüdaten ergänzen, lokalisierte
-Seiten und Such-/Detail-URLs anlegen, Sprache an die Komponenten übergeben und
-erst danach in `locales` aktivieren und die Sprachwahl um echte Links erweitern.
-Objektinhalte werden dadurch nicht automatisch übersetzt.
+- `src/i18n/de/common.ts`: gemeinsame Texte.
+- `src/i18n/de/layout.ts`: Header, Footer und Sprachwahl.
+- `src/i18n/de/search.ts`: Suche und Navigation zwischen Treffern.
+- `src/i18n/de/objectDetails.ts`: Detailseiten.
+
+`src/i18n/messages.ts` bündelt die Bereiche und prüft über `Record<Locale, Messages>`,
+dass jede aktivierte Sprache alle Bereiche, Schlüssel und Werttypen bereitstellt.
+Komponenten verwenden beispielsweise `translate(locale).search`.
+Externe Menüinhalte bleiben separat in `src/data/navigation.de.json`.
+
+Alle Inhaltsseiten haben ein Sprachpräfix: `/de/` und `/de/objects/OBJ-0001/`.
+`src/i18n/paths.ts` erzeugt diese Pfade zentral, auch für Suchlinks und Rücksprünge.
+Die statischen Routen unter `src/pages/[locale]/` werden für die aktivierten
+Sprachen erzeugt. `/objects.json` bleibt ein gemeinsam genutzter Datenendpunkt;
+die darin enthaltenen URLs zeigen auf die Standardsprache.
+
+`/` leitet über Astros i18n-Konfiguration (`redirectToDefaultLocale: true`)
+auf `/de/` weiter. Alte
+Objektrouten ohne Sprachpräfix existieren nicht. Im statischen Build erzeugt
+Astro für die Startseite eine HTML-Weiterleitung; HTTP-Weiterleitungen können
+später beim Hosting ergänzt werden.
+
+Aktuell ist nur Deutsch aktiviert. Für weitere Sprachen Übersetzungsbereiche
+und Menüdaten ergänzen und registrieren, dann die Sprache in `locales` aktivieren
+und die Sprachwahl um die entsprechenden Links erweitern. Die Inhaltsrouten
+werden automatisch erzeugt; Objektinhalte werden nicht automatisch übersetzt.
 
 Node.js mindestens 22.19 verwenden (Cheerio-Abhängigkeit).
 

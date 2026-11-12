@@ -1,0 +1,23 @@
+export default {
+  searchTitle: 'Objekte suchen',
+  query: 'Suchbegriff',
+  queryPlaceholder: 'Name, Ort oder Postleitzahl',
+  category: 'Kategorie',
+  allCategories: 'Alle Kategorien',
+  district: 'Landkreis',
+  allDistricts: 'Alle Landkreise',
+  reset: 'Zurücksetzen',
+  loading: 'Objekte werden geladen …',
+  searchPrompt: 'Bitte gib einen Suchbegriff ein oder wähle einen Filter.',
+  noResults: 'Keine Treffer. Bitte ändere den Suchbegriff oder die Filter.',
+  results: 'Suchergebnisse',
+  name: 'Name',
+  address: 'Adresse',
+  resultPages: 'Ergebnisseiten',
+  searchNavigation: 'Navigation im Suchergebnis',
+  backToSearch: 'Zurück zur Suche',
+  loadError: 'Die Objekte konnten nicht geladen werden. Bitte versuche es erneut.',
+  noScript: 'JavaScript muss aktiviert sein, um die Objektsuche zu verwenden.',
+  resultSummary: (count: number, first: number, last: number) =>
+    `${count} ${count === 1 ? 'Objekt' : 'Objekte'} gefunden · Treffer ${first}–${last}`,
+};
