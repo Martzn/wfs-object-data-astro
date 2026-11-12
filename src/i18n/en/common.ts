@@ -1,4 +1,4 @@
 export default {
-  database: 'Property database',
+  database: 'Tourism Property Database',
   retry: 'Try again',
 };

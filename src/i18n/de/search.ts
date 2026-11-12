@@ -1,4 +1,21 @@
 export default {
+  researchTools: 'Weitere Recherche-Tools',
+  companies: 'Firmen',
+  introductions: {
+    areas: {
+      title: 'Tourismusflächen',
+      available: (count: number) => `${count} ${count === 1 ? 'verfügbare Tourismusfläche' : 'verfügbare Tourismusflächen'}`,
+      description: 'Die Informationen zu den Tourismusflächen werden dezentral durch die zuständigen regionalen Wirtschaftsförderer der Kommunen und Landratsämter sowie durch die Wirtschaftsförderung Sachsen GmbH gepflegt. Zu jeder Tourismusfläche erhalten Sie ein umfassendes Profil mit Ansprechpartnern.',
+    },
+    properties: {
+      title: 'Tourismusimmobilien',
+      available: (count: number) => `${count} ${count === 1 ? 'verfügbare Tourismusimmobilie' : 'verfügbare Tourismusimmobilien'}`,
+      description: 'Die Informationen zu den Tourismusimmobilien werden dezentral durch die zuständigen regionalen Wirtschaftsförderer der Kommunen und Landratsämter sowie durch die Wirtschaftsförderung Sachsen GmbH gepflegt. Zu jeder Tourismusimmobilie erhalten Sie ein umfassendes Profil mit Ansprechpartnern.',
+    },
+  },
+
+  objectTypes: 'Objektart',
+  types: { areas: 'Flächen', properties: 'Immobilien' },
   searchTitle: 'Objekte suchen',
   query: 'Suchbegriff',
   queryPlaceholder: 'Name, Ort oder Postleitzahl',

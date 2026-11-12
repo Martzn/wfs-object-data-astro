@@ -1,4 +1,21 @@
 export default {
+  researchTools: 'Further Research Tools',
+  companies: 'Companies',
+  introductions: {
+    areas: {
+      title: 'Tourism Areas',
+      available: (count: number) => `${count} ${count === 1 ? 'available tourism area' : 'available tourism areas'}`,
+      description: 'Information on tourism areas is maintained locally by the responsible economic development agencies of the municipalities and districts, as well as by Saxony Trade & Invest. Each tourism area has a comprehensive profile with contact details.',
+    },
+    properties: {
+      title: 'Tourism Properties',
+      available: (count: number) => `${count} ${count === 1 ? 'available tourism property' : 'available tourism properties'}`,
+      description: 'Information on tourism properties is maintained locally by the responsible economic development agencies of the municipalities and districts, as well as by Saxony Trade & Invest. Each tourism property has a comprehensive profile with contact details.',
+    },
+  },
+
+  objectTypes: 'Property type',
+  types: { areas: 'Areas', properties: 'Properties' },
   searchTitle: 'Search properties',
   query: 'Search term',
   queryPlaceholder: 'Name, town or postal code',

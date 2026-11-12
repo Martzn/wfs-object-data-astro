@@ -1,13 +1,14 @@
 <script setup lang="ts">
+import { defaultObjectType, type ObjectType } from "../lib/objectTypes";
 import { translate } from "../i18n/messages";
 import { computed } from "vue";
 import { objectSearchUrl } from "../lib/search";
 import { useObjectSearch } from "../lib/useObjectSearch";
 import { defaultLocale, type Locale } from "../i18n/config";
-const props = withDefaults(defineProps<{ objectId: string; locale?: Locale }>(), { locale: defaultLocale });
+const props = withDefaults(defineProps<{ objectId: string; locale?: Locale; type?: ObjectType }>(), { locale: defaultLocale, type: defaultObjectType });
 const t = computed(() => translate(props.locale).search);
 const common = computed(() => translate(props.locale).common);
-const { matches, params, active, backUrl, loading, error, load } = useObjectSearch(false, props.locale);
+const { matches, params, active, backUrl, loading, error, load } = useObjectSearch(false, props.locale, props.type);
 const index = computed(() => matches.value.findIndex(object => object.id === props.objectId));
 const previous = computed(() => index.value > 0 ? matches.value[index.value - 1] : undefined);
 const next = computed(() => index.value >= 0 ? matches.value[index.value + 1] : undefined);
@@ -18,9 +19,9 @@ const next = computed(() => index.value >= 0 ? matches.value[index.value + 1] : 
     <template v-if="active">
       <button v-if="error" type="button" @click="load">{{ common.retry }}</button>
       <div v-else-if="!loading" class="neighbors">
-        <a v-if="previous" :href="objectSearchUrl(previous.id, params, props.locale)" :title="previous.objectName">←</a>
+        <a v-if="previous" :href="objectSearchUrl(previous.id, params, props.locale, props.type)" :title="previous.objectName">←</a>
         {{ index + 1 }} / {{ matches.length }}
-        <a v-if="next" :href="objectSearchUrl(next.id, params, props.locale)" :title="next.objectName">→</a>
+        <a v-if="next" :href="objectSearchUrl(next.id, params, props.locale, props.type)" :title="next.objectName">→</a>
       </div>
     </template>
   </nav>

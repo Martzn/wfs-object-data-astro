@@ -1,3 +1,4 @@
+import { defaultObjectType, type ObjectType } from "./objectTypes";
 import { defaultLocale, type Locale } from "../i18n/config";
 import { objectPath } from "../i18n/paths";
 
@@ -21,11 +22,11 @@ export function searchParams(params: URLSearchParams): URLSearchParams {
   return result;
 }
 
-export function objectSearchUrl(id: string, params: URLSearchParams, locale: Locale = defaultLocale): string {
+export function objectSearchUrl(id: string, params: URLSearchParams, locale: Locale = defaultLocale, type: ObjectType = defaultObjectType): string {
   const context = searchParams(params);
   const page = parsePage(params.get("page"));
   if (context.size && page > 1) context.set("page", String(page));
-  return `${objectPath(id, locale)}${context.size ? `?${context}` : ""}`;
+  return `${objectPath(id, locale, type)}${context.size ? `?${context}` : ""}`;
 }
 
 export const PAGE_SIZE = 10;

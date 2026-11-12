@@ -1,27 +1,29 @@
 ---
-import SiteLayout from "../../../layouts/SiteLayout.astro";
-import { getObjects } from "../../../lib/objects";
-import SearchNavigation from "../../../components/SearchNavigation.vue";
+import SiteLayout from "../../../../layouts/SiteLayout.astro";
+import { getObjects } from "../../../../lib/objects";
+import SearchNavigation from "../../../../components/SearchNavigation.vue";
 
-import { locales } from "../../../i18n/config";
-import { translate } from "../../../i18n/messages";
+import { locales } from "../../../../i18n/config";
+import { translate } from "../../../../i18n/messages";
+
+import { objectTypes } from "../../../../lib/objectTypes";
 
 export async function getStaticPaths() {
   const objects = await getObjects();
 
-  return locales.flatMap(locale => objects.map((object) => ({
-    params: { locale, id: object.id },
-    props: { object, locale },
-  })));
+  return locales.flatMap(locale => objectTypes.flatMap(type => objects.map((object) => ({
+    params: { locale, type, id: object.id },
+    props: { object, locale, type },
+  }))));
 }
 
-const { object, locale } = Astro.props;
+const { object, locale, type } = Astro.props;
 const t = translate(locale).objectDetails;
 ---
 
 <SiteLayout title={object.objectName} locale={locale}>
   <h1>{object.objectName}</h1>
-  <SearchNavigation objectId={object.id} locale={locale} client:load />
+  <SearchNavigation objectId={object.id} locale={locale} type={type} client:load />
   <div class="object-details">
     <div class="description">
       <p>{object.description}</p>

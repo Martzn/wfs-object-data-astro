@@ -1,16 +1,23 @@
 <script setup lang="ts">
+import { searchPath } from "../i18n/paths";
+import { searchParams } from "../lib/search";
+import { defaultObjectType, objectTypes, type ObjectType } from "../lib/objectTypes";
 import { translate } from "../i18n/messages";
 import { computed } from "vue";
 import { objectSearchUrl, PAGE_SIZE } from "../lib/search";
 import { useObjectSearch } from "../lib/useObjectSearch";
 
 import { defaultLocale, type Locale } from "../i18n/config";
-const props = withDefaults(defineProps<{ locale?: Locale }>(), { locale: defaultLocale });
+const props = withDefaults(defineProps<{ locale?: Locale; type?: ObjectType }>(), { locale: defaultLocale, type: defaultObjectType });
 const t = computed(() => translate(props.locale).search);
 const common = computed(() => translate(props.locale).common);
 
 const { criteria, objects, loading, error, ready, params, active, matches, load, reset,
-  page, pageCount, pagedMatches, goToPage } = useObjectSearch(true, props.locale);
+  page, pageCount, pagedMatches, goToPage } = useObjectSearch(true, props.locale, props.type);
+function sectionUrl(type: ObjectType) {
+  const filters = searchParams(params.value);
+  return `${searchPath(props.locale, type)}${filters.size ? `?${filters}` : ''}`;
+}
 function options(key: "category" | "district") {
   return [...new Set([...objects.value.map(object => object[key]), criteria[key]])]
     .filter(Boolean).sort((a, b) => a.localeCompare(b, props.locale));
@@ -20,6 +27,15 @@ const districts = computed(() => options("district"));
 </script>
 
 <template>
+  <nav :aria-label="t.objectTypes">
+    <ul class="nav nav-tabs big-tabs">
+      <li v-for="type in objectTypes" :key="type" :class="{ active: type === props.type }">
+        <a :href="sectionUrl(type)" :aria-current="type === props.type ? 'page' : undefined">
+          {{ t.types[type] }}
+        </a>
+      </li>
+    </ul>
+  </nav>
   <section class="object-search">
     <form role="search" @submit.prevent @reset.prevent="reset">
       <fieldset :disabled="!ready || loading || !!error">
@@ -63,7 +79,7 @@ const districts = computed(() => options("district"));
       </thead>
       <tbody>
         <tr v-for="object in pagedMatches" :key="object.id">
-          <td><a :href="objectSearchUrl(object.id, params, props.locale)">{{ object.objectName }}</a></td>
+          <td><a :href="objectSearchUrl(object.id, params, props.locale, props.type)">{{ object.objectName }}</a></td>
           <td>{{ object.address.street }}, {{ object.address.postalCode }} {{ object.address.city }}</td>
           <td>{{ object.category }}</td>
           <td>{{ object.district }}</td>

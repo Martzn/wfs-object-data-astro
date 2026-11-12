@@ -76,15 +76,16 @@ Externe Menüinhalte liegen in `src/data/navigation.de.json` und
 `src/data/navigation.en.json`. Der Build importiert beide Quellen; relative URLs
 werden anhand der endgültigen URL nach Weiterleitungen aufgelöst.
 
-Alle Inhaltsseiten haben ein Sprachpräfix: `/de/`, `/en/` sowie beispielsweise
-`/de/objects/OBJ-0001/` und `/en/objects/OBJ-0001/`.
+Alle Inhaltsseiten haben ein Sprachpräfix: `/de/areas/`, `/de/properties/` und die entsprechenden englischen Pfade.
+Detailseiten liegen beispielsweise unter `/de/areas/objects/OBJ-0001/`.
 `src/i18n/paths.ts` erzeugt diese Pfade zentral, auch für Suchlinks und Rücksprünge.
 Die statischen Routen unter `src/pages/[locale]/` werden für die aktivierten
 Sprachen erzeugt. `/objects.json` bleibt ein gemeinsam genutzter Datenendpunkt;
 die darin enthaltenen URLs zeigen auf die Standardsprache.
 
 `/` leitet über Astros i18n-Konfiguration (`redirectToDefaultLocale: true`)
-auf `/de/` weiter. Alte
+auf `/de/` weiter; `/de/` und `/en/` leiten zur jeweiligen Flächensuche
+(`areas`) weiter. Alte
 Objektrouten ohne Sprachpräfix existieren nicht. Im statischen Build erzeugt
 Astro für die Startseite eine HTML-Weiterleitung; HTTP-Weiterleitungen können
 später beim Hosting ergänzt werden.
@@ -121,3 +122,16 @@ Mit `npm run sync:styles -- --offline` lässt sich das globale Stylesheet aus
 den bereits gespeicherten CSS-Quelldateien ohne Download neu erzeugen.
 Die Sprachwahl bietet Deutsch und Englisch an. Die Versionszeile verwendet
 Name und Version dieser Anwendung statt der KWeC-Versionsangabe der Quelle.
+
+### Flächen und Immobilien
+
+Die Suche besitzt zwei verlinkbare Reiter: `areas` (Flächen) und `properties`
+(Immobilien). `src/lib/objectTypes.ts` definiert die Bereiche, den Standard
+`areas` und die Datenendpunkte. Vorerst laden beide Reiter dieselben Beispieldaten
+von `/objects.json`; die Quellen können später unabhängig angepasst werden.
+Detailseiten werden momentan für beide Bereiche aus den Beispieldaten erzeugt.
+
+Beim Reiterwechsel bleiben Suchfilter erhalten und die Seitennummer wird
+zurückgesetzt. Detailnavigation, Rücksprung und Sprachwahl erhalten den Bereich.
+Die Reiter sind normale Navigationslinks und funktionieren auch ohne JavaScript;
+die eigentliche Suche benötigt JavaScript.

@@ -1,4 +1,4 @@
 export default {
-  database: 'Objektdatenbank',
+  database: 'Tourismusobjekte',
   retry: 'Erneut laden',
 };

@@ -1,4 +1,5 @@
-import { homePath } from "../i18n/paths";
+import { defaultObjectType, objectSources, type ObjectType } from "./objectTypes";
+import { searchPath } from "../i18n/paths";
 import { translate } from "../i18n/messages";
 import { computed, onMounted, onUnmounted, reactive, ref, watch } from "vue";
 import { filterObjects, searchParams, parsePage, PAGE_SIZE, type SearchObject } from "./search";
@@ -6,7 +7,7 @@ import { filterObjects, searchParams, parsePage, PAGE_SIZE, type SearchObject } 
 import { defaultLocale, type Locale } from "../i18n/config";
 
 /** Shared search state for the search form and detail navigation. */
-export function useObjectSearch(syncUrl = false, locale: Locale = defaultLocale) {
+export function useObjectSearch(syncUrl = false, locale: Locale = defaultLocale, type: ObjectType = defaultObjectType) {
   const criteria = reactive({ q: "", category: "", district: "" });
   const objects = ref<SearchObject[]>([]);
   const loading = ref(false);
@@ -27,7 +28,7 @@ export function useObjectSearch(syncUrl = false, locale: Locale = defaultLocale)
     if (result.size && page.value > 1) result.set("page", String(page.value));
     return result;
   });
-  const backUrl = computed(() => `${homePath(locale)}${params.value.size ? `?${params.value}` : ""}`);
+  const backUrl = computed(() => `${searchPath(locale, type)}${params.value.size ? `?${params.value}` : ""}`);
 
   function restore() {
     restoring = true;
@@ -43,7 +44,7 @@ export function useObjectSearch(syncUrl = false, locale: Locale = defaultLocale)
     loading.value = true;
     error.value = "";
     try {
-      const response = await fetch("/objects.json", { signal: controller.signal });
+      const response = await fetch(objectSources[type], { signal: controller.signal });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       objects.value = await response.json();
       loaded.value = true;
