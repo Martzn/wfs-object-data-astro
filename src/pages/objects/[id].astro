@@ -3,6 +3,9 @@ import SiteLayout from "../../layouts/SiteLayout.astro";
 import { getObjects } from "../../lib/objects";
 import SearchNavigation from "../../components/SearchNavigation.vue";
 
+import { defaultLocale, translate } from "../../i18n/config";
+const t = translate(defaultLocale);
+
 export async function getStaticPaths() {
   const objects = await getObjects();
 
@@ -17,8 +20,8 @@ const { object } = Astro.props;
 
 <SiteLayout title={object.objectName}>
   <h1>{object.objectName}</h1>
-  <SearchNavigation objectId={object.id} client:load />
-  <div class="container">
+  <SearchNavigation objectId={object.id} locale={defaultLocale} client:load />
+  <div class="object-details">
     <div class="description">
       <p>{object.description}</p>
       <p>
@@ -32,7 +35,7 @@ const { object } = Astro.props;
     <div class="map">
       <div class="map-base">
         <iframe
-          title={`Standort: ${object.objectName}`}
+          title={`${t.mapLocation}: ${object.objectName}`}
           src={`https://maps.google.com/maps?q=${object.coordinates.latitude},${object.coordinates.longitude}&z=15&output=embed`}
           width="100%"
           height="400"
@@ -53,7 +56,7 @@ const { object } = Astro.props;
     margin-top: var(--space-default);
   }
 
-  .container {
+  .object-details {
     display: grid;
     gap: var(--space-default);
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -62,7 +65,7 @@ const { object } = Astro.props;
   }
 
   @media (max-width: 700px) {
-    .container {
+    .object-details {
       grid-template-columns: 1fr;
     }
   }

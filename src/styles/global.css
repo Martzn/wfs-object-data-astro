@@ -5,3 +5,8 @@
     --space-default: 30px;
     --background-color: #f9f9f9;
 }
+*, *::before, *::after { box-sizing: border-box; }
+:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 4px; }
+
+/* Header, content and footer share the original site width and global theme. */
+body > .site-chrome { width: 100%; max-width: 1280px; margin: 0 auto; }

@@ -1,8 +1,10 @@
 import { computed, onMounted, onUnmounted, reactive, ref, watch } from "vue";
 import { filterObjects, searchParams, parsePage, PAGE_SIZE, type SearchObject } from "./search";
 
+import { defaultLocale, translate, type Locale } from "../i18n/config";
+
 /** Shared search state for the search form and detail navigation. */
-export function useObjectSearch(syncUrl = false) {
+export function useObjectSearch(syncUrl = false, locale: Locale = defaultLocale) {
   const criteria = reactive({ q: "", category: "", district: "" });
   const objects = ref<SearchObject[]>([]);
   const loading = ref(false);
@@ -44,7 +46,7 @@ export function useObjectSearch(syncUrl = false) {
       objects.value = await response.json();
       loaded.value = true;
     } catch {
-      if (!controller.signal.aborted) error.value = "Die Objekte konnten nicht geladen werden. Bitte versuche es erneut.";
+      if (!controller.signal.aborted) error.value = translate(locale).loadError;
     } finally {
       loading.value = false;
     }

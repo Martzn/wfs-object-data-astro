@@ -2,17 +2,19 @@
 import { computed } from "vue";
 import { objectSearchUrl } from "../lib/search";
 import { useObjectSearch } from "../lib/useObjectSearch";
-const props = defineProps<{ objectId: string }>();
-const { matches, params, active, backUrl, loading, error, load } = useObjectSearch();
+import { defaultLocale, translate, type Locale } from "../i18n/config";
+const props = withDefaults(defineProps<{ objectId: string; locale?: Locale }>(), { locale: defaultLocale });
+const t = computed(() => translate(props.locale));
+const { matches, params, active, backUrl, loading, error, load } = useObjectSearch(false, props.locale);
 const index = computed(() => matches.value.findIndex(object => object.id === props.objectId));
 const previous = computed(() => index.value > 0 ? matches.value[index.value - 1] : undefined);
 const next = computed(() => index.value >= 0 ? matches.value[index.value + 1] : undefined);
 </script>
 
 <template>
-  <nav class="search-navigation" aria-label="Navigation im Suchergebnis">
+  <nav class="search-navigation" :aria-label="t.searchNavigation">
     <template v-if="active">
-      <button v-if="error" type="button" @click="load">Erneut laden</button>
+      <button v-if="error" type="button" @click="load">{{ t.retry }}</button>
       <div v-else-if="!loading" class="neighbors">
         <a v-if="previous" :href="objectSearchUrl(previous.id, params)" :title="previous.objectName">←</a>
         {{ index + 1 }} / {{ matches.length }}
@@ -21,7 +23,7 @@ const next = computed(() => index.value >= 0 ? matches.value[index.value + 1] : 
     </template>
   </nav>
   <div class="content">
-    <a :href="backUrl" class="back-button">Zurück zur Suche</a>
+    <a :href="backUrl" class="back-button">{{ t.backToSearch }}</a>
   </div>
 </template>
 

@@ -3,11 +3,15 @@ import { computed } from "vue";
 import { objectSearchUrl, PAGE_SIZE } from "../lib/search";
 import { useObjectSearch } from "../lib/useObjectSearch";
 
+import { defaultLocale, translate, type Locale } from "../i18n/config";
+const props = withDefaults(defineProps<{ locale?: Locale }>(), { locale: defaultLocale });
+const t = computed(() => translate(props.locale));
+
 const { criteria, objects, loading, error, ready, params, active, matches, load, reset,
-  page, pageCount, pagedMatches, goToPage } = useObjectSearch(true);
+  page, pageCount, pagedMatches, goToPage } = useObjectSearch(true, props.locale);
 function options(key: "category" | "district") {
   return [...new Set([...objects.value.map(object => object[key]), criteria[key]])]
-    .filter(Boolean).sort((a, b) => a.localeCompare(b, "de"));
+    .filter(Boolean).sort((a, b) => a.localeCompare(b, props.locale));
 }
 const categories = computed(() => options("category"));
 const districts = computed(() => options("district"));
@@ -17,42 +21,42 @@ const districts = computed(() => options("district"));
   <section class="object-search">
     <form role="search" @submit.prevent @reset.prevent="reset">
       <fieldset :disabled="!ready || loading || !!error">
-        <legend>Objekte suchen</legend>
+        <legend>{{ t.searchTitle }}</legend>
         <div class="fields">
-          <label class="query">Suchbegriff
-            <input v-model="criteria.q" type="search" name="q" placeholder="Name, Ort oder Postleitzahl" />
+          <label class="query">{{ t.query }}
+            <input v-model="criteria.q" type="search" name="q" :placeholder="t.queryPlaceholder" />
           </label>
-          <label>Kategorie
+          <label>{{ t.category }}
             <select v-model="criteria.category" name="category">
-              <option value="">Alle Kategorien</option>
+              <option value="">{{ t.allCategories }}</option>
               <option v-for="value in categories" :key="value" :value="value">{{ value }}</option>
             </select>
           </label>
-          <label>Landkreis
+          <label>{{ t.district }}
             <select v-model="criteria.district" name="district">
-              <option value="">Alle Landkreise</option>
+              <option value="">{{ t.allDistricts }}</option>
               <option v-for="value in districts" :key="value" :value="value">{{ value }}</option>
             </select>
           </label>
-          <button type="reset">Zurücksetzen</button>
+          <button type="reset">{{ t.reset }}</button>
         </div>
       </fieldset>
     </form>
     <p role="status" aria-live="polite">
       <template v-if="error">{{ error }}</template>
-      <template v-else-if="loading">Objekte werden geladen …</template>
-      <template v-else-if="!active">Bitte gib einen Suchbegriff ein oder wähle einen Filter.</template>
-      <template v-else-if="matches.length">{{ matches.length }} {{ matches.length === 1 ? 'Objekt' : 'Objekte' }} gefunden · Treffer {{ (page - 1) * PAGE_SIZE + 1 }}–{{ Math.min(page * PAGE_SIZE, matches.length) }}</template>
-      <template v-else>Keine Treffer. Bitte ändere den Suchbegriff oder die Filter.</template>
+      <template v-else-if="loading">{{ t.loading }}</template>
+      <template v-else-if="!active">{{ t.searchPrompt }}</template>
+      <template v-else-if="matches.length">{{ t.resultSummary(matches.length, (page - 1) * PAGE_SIZE + 1, Math.min(page * PAGE_SIZE, matches.length)) }}</template>
+      <template v-else>{{ t.noResults }}</template>
     </p>
-    <button v-if="error" type="button" @click="load">Erneut laden</button>
-    <table v-if="active && !loading && !error" class="resultTable" aria-label="Suchergebnisse">
+    <button v-if="error" type="button" @click="load">{{ t.retry }}</button>
+    <table v-if="active && !loading && !error" class="resultTable" :aria-label="t.results">
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Addresse</th>
-          <th>Kategorie</th>
-          <th>Landkreis</th>
+          <th>{{ t.name }}</th>
+          <th>{{ t.address }}</th>
+          <th>{{ t.category }}</th>
+          <th>{{ t.district }}</th>
         </tr>
       </thead>
       <tbody>
@@ -64,7 +68,7 @@ const districts = computed(() => options("district"));
         </tr>
       </tbody>
     </table>
-    <nav v-if="active && !loading && !error && pageCount > 1" class="pagination" aria-label="Ergebnisseiten">
+    <nav v-if="active && !loading && !error && pageCount > 1" class="pagination" :aria-label="t.resultPages">
       <a v-if="page > 1" @click="goToPage(1)">&laquo;</a>
       <a v-if="page > 1" @click="goToPage(page + 1)">&#8249;</a>
       <a v-for="number in pageCount" @click="goToPage(number)" :class="{ active: number === page }">{{ number }}</a>
@@ -99,7 +103,6 @@ const districts = computed(() => options("district"));
 
 button:disabled { opacity: 0.4; cursor: default; }
 fieldset { padding: 0; margin: 0; border: 0; min-width: 0; }
-legend { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; }
 .fields { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; }
 label { display: grid; gap: 0.5rem; flex: 1 1 180px; min-width: 0; }
 .query { flex: 2 1 260px; }
@@ -141,8 +144,6 @@ button { cursor: pointer; border: none; background: #000; color: #fff;}
     padding: 8px var(--space-default);
   }
   
-  td:odd {
-  }
   a { color: inherit; text-underline-offset: 3px; }
   a:hover {
     color: var(--primary-color);

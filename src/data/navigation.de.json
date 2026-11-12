@@ -1,0 +1,233 @@
+{
+  "source": "https://firmen.standort-sachsen.de/company/de/",
+  "portals": [
+    {
+      "label": "Investieren und Wachstum realisieren",
+      "href": "https://standort-sachsen.de/de/investoren"
+    },
+    {
+      "label": "Exportieren und Märkte erschließen",
+      "href": "https://standort-sachsen.de/de/exporteure"
+    },
+    {
+      "label": "Kooperieren und Zulieferer finden",
+      "href": "https://standort-sachsen.de/de/kaeufer"
+    },
+    {
+      "label": "Gründen und Ideen verwirklichen",
+      "href": "https://standort-sachsen.de/de/gruender"
+    }
+  ],
+  "headerLinks": [
+    {
+      "label": "Kontakt",
+      "href": "https://standort-sachsen.de/de/kontakt"
+    },
+    {
+      "label": "Impressum",
+      "href": "https://standort-sachsen.de/de/impressum"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "Datenschutz",
+      "href": "https://standort-sachsen.de/de/datenschutz"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "href": "https://standort-sachsen.de/de/barrierefreiheit-datenbank"
+    },
+    {
+      "label": "Kontakt",
+      "href": "https://standort-sachsen.de/de/kontakt"
+    },
+    {
+      "label": "Impressum",
+      "href": "https://standort-sachsen.de/de/impressum"
+    }
+  ],
+  "footerGroups": [
+    {
+      "label": "Standort Sachsen",
+      "href": "https://standort-sachsen.de/de/standort",
+      "links": [
+        {
+          "label": "Wirtschaft",
+          "href": "https://standort-sachsen.de/de/standort/wirtschaft"
+        },
+        {
+          "label": "Lage und Infrastruktur",
+          "href": "https://standort-sachsen.de/de/standort/lage-infrastruktur"
+        },
+        {
+          "label": "Innovationskraft",
+          "href": "https://standort-sachsen.de/de/standort/innovationskraft"
+        },
+        {
+          "label": "Arbeitsmarkt",
+          "href": "https://standort-sachsen.de/de/standort/arbeitsmarkt-qualifikation"
+        },
+        {
+          "label": "Kosten",
+          "href": "https://standort-sachsen.de/de/standort/kosten"
+        },
+        {
+          "label": "Förderung",
+          "href": "https://standort-sachsen.de/de/standort/foerderung"
+        },
+        {
+          "label": "Lebensqualität",
+          "href": "https://standort-sachsen.de/de/standort/lebensqualitaet"
+        }
+      ]
+    },
+    {
+      "label": "Branchen",
+      "href": "https://standort-sachsen.de/de/branchen",
+      "links": [
+        {
+          "label": "Automobilindustrie",
+          "href": "https://standort-sachsen.de/de/branchen/automobilindustrie"
+        },
+        {
+          "label": "Maschinen- und Anlagenbau",
+          "href": "https://standort-sachsen.de/de/branchen/maschinen-und-anlagenbau"
+        },
+        {
+          "label": "Mikroelektronik / IKT",
+          "href": "https://standort-sachsen.de/de/branchen/mikroelektronik-ikt"
+        },
+        {
+          "label": "Umwelt- und Energietechnik",
+          "href": "https://standort-sachsen.de/de/branchen/umwelt-und-energietechnik"
+        },
+        {
+          "label": "Life Sciences",
+          "href": "https://standort-sachsen.de/de/branchen/life-sciences"
+        },
+        {
+          "label": "Weitere Branchen",
+          "href": "https://standort-sachsen.de/de/branchen/weitere-branchen"
+        },
+        {
+          "label": "Technologiefelder",
+          "href": "https://standort-sachsen.de/de/branchen/technologiefelder"
+        }
+      ]
+    },
+    {
+      "label": "Unser Service",
+      "href": "https://standort-sachsen.de/de/service",
+      "links": [
+        {
+          "label": "Betreuung von Investoren",
+          "href": "https://standort-sachsen.de/de/service/betreuung-von-investoren"
+        },
+        {
+          "label": "Unterstützung beim Wachstum",
+          "href": "https://standort-sachsen.de/de/service/unterstuetzung-beim-wachstum"
+        },
+        {
+          "label": "Unterstützung bei Markterschließung",
+          "href": "https://standort-sachsen.de/de/service/unterstuetzung-bei-markterschliessung"
+        },
+        {
+          "label": "Lieferketten stärken",
+          "href": "https://standort-sachsen.de/de/service/lieferketten-staerken"
+        },
+        {
+          "label": "Kooperationen anbahnen",
+          "href": "https://standort-sachsen.de/de/service/kooperationen-anbahnen"
+        },
+        {
+          "label": "Service für Gründer",
+          "href": "https://standort-sachsen.de/de/service/service-fuer-gruender"
+        },
+        {
+          "label": "Branchen- und Netzwerkarbeit",
+          "href": "https://standort-sachsen.de/de/service/branchen-und-netzwerkarbeit"
+        },
+        {
+          "label": "Standortmarketing",
+          "href": "https://standort-sachsen.de/de/service/standortmarketing"
+        },
+        {
+          "label": "Informationsservice",
+          "href": "https://standort-sachsen.de/de/service/informationsservice"
+        },
+        {
+          "label": "EU-Projekt \"DigiNetPolSax\"",
+          "href": "https://standort-sachsen.de/de/service/eu-projekt-diginetpolsax"
+        },
+        {
+          "label": "EU-Projekt \"EnergyTransPolSax\"",
+          "href": "https://standort-sachsen.de/de/service/eu-projekt-energytranspolsax"
+        },
+        {
+          "label": "EU-Projekt \"InnoCoopPolSax\"",
+          "href": "https://standort-sachsen.de/de/service/eu-projekt-innocooppolsax"
+        },
+        {
+          "label": "Über uns",
+          "href": "https://standort-sachsen.de/de/service/ueber-uns"
+        }
+      ]
+    },
+    {
+      "label": "Info-Center",
+      "href": "https://standort-sachsen.de/de/info-center",
+      "links": [
+        {
+          "label": "Ansprechpartnersuche",
+          "href": "https://standort-sachsen.de/de/info-center/ansprechpartnersuche"
+        },
+        {
+          "label": "Veranstaltungskalender",
+          "href": "https://standort-sachsen.de/de/info-center/veranstaltungskalender"
+        },
+        {
+          "label": "Nachrichten",
+          "href": "https://standort-sachsen.de/de/info-center/nachrichten"
+        },
+        {
+          "label": "Newsletter",
+          "href": "https://standort-sachsen.de/de/info-center/newsletter"
+        },
+        {
+          "label": "Downloads",
+          "href": "https://standort-sachsen.de/de/info-center/downloads"
+        },
+        {
+          "label": "Datenbanken",
+          "href": "https://standort-sachsen.de/de/info-center/datenbanken"
+        },
+        {
+          "label": "Erfolgsgeschichten und Statements",
+          "href": "https://standort-sachsen.de/de/info-center/erfolgsgeschichten-statements"
+        }
+      ]
+    },
+    {
+      "label": "Presse",
+      "href": "https://standort-sachsen.de/de/presse",
+      "links": [
+        {
+          "label": "Pressemitteilungen & News",
+          "href": "https://standort-sachsen.de/de/presse/pressemitteilungen-news"
+        },
+        {
+          "label": "Über die WFS",
+          "href": "https://standort-sachsen.de/de/presse/ueber-die-wfs"
+        },
+        {
+          "label": "Über Sachsens Branchen",
+          "href": "https://standort-sachsen.de/de/presse/ueber-sachsens-branchen"
+        },
+        {
+          "label": "Über den Standort Sachsen",
+          "href": "https://standort-sachsen.de/de/presse/ueber-den-standort-sachsen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+
+/*@import url("http://fast.../fonts.net/t/1.css?apiType=css&projectid=3f57a5df-00e9-40be-9f95-a7c453a1c8b5");*/
+@font-face{
+    font-family:"Helvetica LT W01 Light";
+    src:url("../fonts/3a74c169-76ee-4223-b4b4-aac92e8da5ec.eot?#iefix");
+    src:url("../fonts/3a74c169-76ee-4223-b4b4-aac92e8da5ec.eot?#iefix") format("eot"),url("../fonts/37953885-0443-4c72-a693-9152a9f5a901.woff2") format("woff2"),url("../fonts/fcce277c-07e2-4c88-ad8b-a71b484e2cbe.woff") format("woff"),url("../fonts/315bbeb9-a30f-4f38-91ae-d6cfbbf89437.ttf") format("truetype"),url("../fonts/507e1538-09ae-429d-a77c-b0fd539aea7f.svg#507e1538-09ae-429d-a77c-b0fd539aea7f") format("svg");
+}
+@font-face{
+    font-family:"Optima LT W01 Roman";
+    src:url("../fonts/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix");
+    src:url("../fonts/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix") format("eot"),url("../fonts/776a385c-3d8b-4237-8d14-382015d9ff12.woff2") format("woff2"),url("../fonts/b72e728e-eac1-4261-ac86-579fa6ae4a0b.woff") format("woff"),url("../fonts/7d64c37c-83dc-4450-8781-17b619b16935.ttf") format("truetype"),url("../fonts/77b722e6-5ee7-40fe-aff2-0225df92206d.svg#77b722e6-5ee7-40fe-aff2-0225df92206d") format("svg");
+}
+@font-face{
+    font-family:"Optima LT W01 Italic";
+    src:url("../fonts/4d01aa23-599f-462f-ac29-14214b3125cd.eot?#iefix");
+    src:url("../fonts/4d01aa23-599f-462f-ac29-14214b3125cd.eot?#iefix") format("eot"),url("../fonts/e6dde7e6-8343-4366-9c66-dd15e81df199.woff2") format("woff2"),url("../fonts/a5e1e1fd-f4dc-41b2-b227-ecc948bb9c6d.woff") format("woff"),url("../fonts/e4f76f05-6722-4d59-bd67-5695010d0212.ttf") format("truetype"),url("../fonts/4d1f58b6-cb0a-49e4-97a4-c5fc13eb6123.svg#4d1f58b6-cb0a-49e4-97a4-c5fc13eb6123") format("svg");
+}
+@font-face{
+    font-family:"Optima LT W01 Medium";
+    src:url("../fonts/862794cc-e89c-48ab-94e6-a44c77d209ed.eot?#iefix");
+    src:url("../fonts/862794cc-e89c-48ab-94e6-a44c77d209ed.eot?#iefix") format("eot"),url("../fonts/e8a79ad4-e523-4ee0-873c-5b49a0d4c835.woff2") format("woff2"),url("../fonts/2a69f5d6-9311-46b2-9f56-0f55b8c4cf7c.woff") format("woff"),url("../fonts/f1233948-f0de-4d83-9d4d-576c8e27e593.ttf") format("truetype"),url("../fonts/e42cfddb-24ea-439e-85a1-65ec70799444.svg#e42cfddb-24ea-439e-85a1-65ec70799444") format("svg");
+}
+@font-face{
+    font-family:"Optima LT W01 Bold";
+    src:url("../fonts/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix");
+    src:url("../fonts/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix") format("eot"),url("../fonts/f7b586da-68e1-406c-87f7-1c45040e49f9.woff2") format("woff2"),url("../fonts/7b16da83-d4bf-4808-b6f7-fd915dd9b61f.woff") format("woff"),url("../fonts/887409a8-7285-46ea-ba85-893160ec2888.ttf") format("truetype"),url("../fonts/4c70d5bb-37b9-48b5-a0e8-edfa5819db39.svg#4c70d5bb-37b9-48b5-a0e8-edfa5819db39") format("svg");
+}
+
+/* open-sans-regular - cyrillic_greek_latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-italic - cyrillic_greek_latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Italic'), local('OpenSans-Italic'),
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v15-cyrillic_greek_latin-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}

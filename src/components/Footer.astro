@@ -1,0 +1,42 @@
+---
+import { version } from '../../package.json';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { getNavigation } from '../lib/navigation';
+import { translate, type Locale } from '../i18n/config';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = translate(locale);
+const menu = getNavigation(locale);
+---
+<div class="site-chrome">
+<footer>
+  <section>
+    <div class="servicenavigation">
+      <div class="row">
+        <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8">
+          <nav aria-label={t.navigation}><ul class="nav navbar-nav">{menu.footerLinks.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul></nav>
+          <div class="hidden-xs"><LanguageSwitcher locale={locale} footer /></div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-print-12 copyright"><span>{t.provider}</span><img class="img-responsive hidden-sm hidden-md hidden-lg" src="/brand/wfs-mobile.png" alt="Logo Wirtschaftsförderung Sachsen mbH" /></div>
+      </div>
+    </div>
+    <div class="row">
+      {menu.footerGroups.map(group => <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 hidden-xs"><nav aria-label={group.label}>
+        <h2><a href={group.href}>{group.label}</a></h2>
+        <ul>{group.links.map(link => <li><a href={link.href}>{link.label}</a></li>)}</ul>
+      </nav></div>)}
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+        <h2>{t.contact}</h2>
+        <div class="vcard">
+          <p class="company">Wirtschaftsförderung Sachsen GmbH (WFS)</p>
+          <address class="adr"><p class="street-address">Bertolt-Brecht-Allee 22</p><span class="postal-code">01309</span>&nbsp;<span class="locality">Dresden</span></address>
+          <p class="tel work">Telefon: +49 (351) 2138-0</p>
+          <p class="tel work fax">Fax: +49 (351) 2138-399</p>
+          <a class="email icon-arrow-right" href="mailto:info@wfs.saxony.de">{t.email}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center muted print-hidden"><span>{t.database}</span> – Version {version}</div>
+</footer>
+</div>

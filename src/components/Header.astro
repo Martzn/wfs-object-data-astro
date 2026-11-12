@@ -1,0 +1,48 @@
+---
+import LanguageSwitcher from './LanguageSwitcher.astro';
+import { getNavigation } from '../lib/navigation';
+import { translate, type Locale } from '../i18n/config';
+import logo from '../../public/brand/sachsen.svg?raw';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = translate(locale);
+const menu = getNavigation(locale);
+const portalIcons = ['icon-invest', 'icon-globe', 'icon-gear', 'icon-establish'];
+---
+<div class="site-chrome">
+<header>
+  <div class="top-header">
+    <section>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-6 col-lg-6 logo-slogan">
+          <div class="media">
+            <div class="media-left"><div id="logo"><a href="https://standort-sachsen.de" aria-label="Standort Sachsen"><Fragment set:html={logo} /></a></div></div>
+            <div class="media-body hidden-xs hidden-sm"><div class="slogan">{t.slogan}</div></div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-8 col-md-6 col-lg-6">
+          <div class="servicenavigation hidden-xs">
+            <div class="row">
+              <div class="col-xs-12"><a href="https://wfs.sachsen.de/"><div class="logo hidden-xs pull-right"><img style="height:26px;margin-top:38px;" src="/brand/wfs.svg" alt="Logo Wirtschaftsförderung Sachsen GmbH (WFS)" /></div></a></div>
+              <div class="col-xs-12">
+                <nav aria-label={t.navigation}>
+                  <ul class="nav navbar-nav pull-right">
+                    <li class="portal-selection-desktop">
+                      <a href="#" role="button" class="dropdown-toggle" data-chrome-toggle aria-haspopup="true" aria-expanded="false" title="Portalauswahl"> {t.portals} <span class="caret"></span></a>
+                      <ul class="dropdown-menu">{menu.portals.map((link, index) => <li><a href={link.href} class:list={[portalIcons[index], 'icon-padding']}>{link.label}</a></li>)}</ul>
+                    </li>
+                    {menu.headerLinks.map(link => <li><a href={link.href}>{link.label}</a></li>)}
+                    <LanguageSwitcher locale={locale} tag="li" />
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-buttons hidden-lg hidden-md hidden-sm"><LanguageSwitcher locale={locale} mobile /></div>
+        </div>
+      </div>
+      <div class="row"><div class="col-xs-12 hidden-md hidden-lg"><div class="slogan">{t.slogan}</div></div></div>
+    </section>
+  </div>
+</header>
+</div>
